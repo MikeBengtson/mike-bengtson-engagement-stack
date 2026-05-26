@@ -7,6 +7,8 @@
 - [ ] Add proof links for every public claim where possible.
 - [ ] Fill current engagement preferences.
 - [ ] Fill evaluation rubric trade-offs or mark defaults as intentional.
+- [ ] Copy `private.example/` to ignored `private/` if private thresholds or constraints are needed.
+- [ ] Confirm private overlays are not staged in git.
 - [ ] Fill contact and request instructions.
 - [ ] Review LinkedIn export material.
 - [ ] Render resume artifacts.

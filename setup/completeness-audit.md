@@ -28,6 +28,13 @@ Use this before sharing the stack.
 - [ ] Request instructions include subject line and required fields.
 - [ ] Evaluation rubric distinguishes dealbreakers, weighted preferences, and trade-off rules.
 - [ ] Offer packet schema includes the fields needed to score high-priority criteria.
+- [ ] Private thresholds and constraints are either intentionally omitted or stored only in ignored `private/` overlays.
+
+## Privacy
+
+- [ ] `git status --short` does not show private files staged or untracked.
+- [ ] `private/` exists only locally if sensitive overlays are needed.
+- [ ] Public files do not expose salary floors, private immigration details, family/health constraints, current-employer constraints, or negotiation strategy unless intentionally approved.
 
 ## Submissions
 

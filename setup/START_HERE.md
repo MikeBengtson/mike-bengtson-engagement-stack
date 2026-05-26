@@ -9,13 +9,26 @@ Use this guide when adopting Engagement Stack for yourself or helping someone po
 3. Read [AGENTS.md](../AGENTS.md).
 4. Paste [prompts/populate-engagement-stack.md](../prompts/populate-engagement-stack.md) into your coding agent.
 5. Let the agent interview you and fill the scaffold.
-6. Review every generated claim before sharing.
-7. Run the completeness audit in [setup/completeness-audit.md](completeness-audit.md).
-8. Render resume artifacts with GitHub Actions or `scripts/render-resumes.sh`.
+6. Copy `private.example/` to ignored `private/` if you need private salary, constraint, or negotiation overlays.
+7. Review every generated claim before sharing.
+8. Run the completeness audit in [setup/completeness-audit.md](completeness-audit.md).
+9. Render resume artifacts with GitHub Actions or `scripts/render-resumes.sh`.
 
 ## No Runtime Required
 
 The default setup requires only GitHub, Markdown, YAML, and an agent. Local scripts are optional conveniences.
+
+## Public And Private Data
+
+This framework is public-first, but the user may still need private data for accurate evaluation. Public files can describe preferences and trade-off rules. Private overlays can hold actual numbers and sensitive facts.
+
+Copy:
+
+```sh
+cp -R private.example private
+```
+
+Then fill `private/`. That folder is ignored by default.
 
 ## What To Fill First
 
@@ -32,6 +45,7 @@ The default setup requires only GitHub, Markdown, YAML, and an agent. Local scri
 ## What Can Wait
 
 - Private compensation thresholds.
+- Private work authorization, current-employer, family, health, or negotiation constraints.
 - Deep project case studies.
 - References and testimonials.
 - GitHub Pages publishing.

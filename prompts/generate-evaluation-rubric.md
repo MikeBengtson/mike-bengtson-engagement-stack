@@ -16,6 +16,12 @@ Read:
 - `engagements/evaluation-rubric.yaml`
 - `engagements/offer-packet.schema.yaml`
 - `integrations/job-search/README.md`
+- `private.example/README.md`
+
+If private overlays exist, also read:
+
+- `private/*.private.md`
+- `private/*.private.yaml`
 
 If a `job-search-export.yaml` is available, use it as advisory input for target roles, target industries, geography, employment-type recommendations, compensation posture, and resume shader recommendations. Do not treat it as canonical fact.
 
@@ -26,6 +32,7 @@ Create or update:
 - `engagements/evaluation-rubric.md`
 - `engagements/evaluation-rubric.yaml`
 - `engagements/offer-packet.schema.yaml` if required fields need to change
+- `private/*.private.md` or `private/*.private.yaml` only when the user explicitly wants to store private thresholds locally
 
 The Markdown should help humans understand the person's priorities. The YAML should let agents score offers, identify dealbreakers, validate missing offer-packet fields, and draft clarification requests.
 
@@ -94,6 +101,8 @@ Use these statuses:
 ## Privacy Rules
 
 Keep public-safe priorities in this repo. Put sensitive compensation floors, private constraints, family details, immigration details, or negotiation thresholds in a private overlay unless I explicitly approve public storage.
+
+Use `private.example/` as the copyable pattern. Real private files should be created under ignored `private/`, not committed to the public repo.
 
 ## Output Rules
 

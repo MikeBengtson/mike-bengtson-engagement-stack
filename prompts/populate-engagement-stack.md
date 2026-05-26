@@ -8,6 +8,7 @@ Read these files first:
 - `AGENTS.md`
 - `setup/START_HERE.md`
 - `setup/required-files.md`
+- `private.example/README.md`
 
 Then interview me in stages. Ask no more than five questions at a time. After each stage, write or update the relevant Markdown and YAML files.
 
@@ -120,5 +121,6 @@ Update:
 - Do not invent facts.
 - Mark missing evidence explicitly.
 - Keep private or sensitive details out of public files unless I approve.
+- Use ignored `private/` overlays for salary floors, sensitive constraints, work authorization details, and negotiation thresholds.
 - Keep Markdown human-readable and YAML parseable.
 - Cite which files you changed after each stage.

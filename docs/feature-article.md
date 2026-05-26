@@ -20,4 +20,6 @@ Engagement Stack also defines an intake surface. A potential employer or client 
 
 That evaluation can be explicit. A job seeker may prefer remote work but accept hybrid for exceptional work, or prefer full-time employment but consider contract work at a premium. Engagement Stack captures those trade-offs as both human-readable priorities and agent-readable scoring rules.
 
+The public repo does not have to expose everything. Public files can say that private thresholds exist; ignored private overlays can hold actual salary floors, negotiation strategy, immigration details, and sensitive constraints. The repo can be browseable while the decision model stays complete for the user's own agent.
+
 This is not just a job-search toolkit. It is a professional operating system for the agent era.

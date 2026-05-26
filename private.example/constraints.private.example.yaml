@@ -1,0 +1,34 @@
+schema: private_constraints_overlay/v1
+agent_surface: true
+visibility: private
+status: example_do_not_use_as_real_data
+
+work_authorization:
+  citizenship: TODO
+  visa_status: TODO
+  sponsorship_needed: TODO
+  clearance: TODO
+  export_control_notes: TODO
+  jurisdictions_available: []
+
+schedule:
+  maximum_weekly_hours: TODO
+  unavailable_days_or_times: []
+  on_call_limits: TODO
+  travel_limits: TODO
+  relocation_limits: TODO
+
+current_employment:
+  currently_employed: TODO
+  notice_period: TODO
+  moonlighting_allowed: TODO
+  conflict_constraints: []
+
+personal_constraints:
+  commute_limit_private: TODO
+  family_or_caregiving_constraints_private: TODO
+  health_or_accessibility_constraints_private: TODO
+
+notes:
+  - This is an example file. Copy to private/constraints.private.yaml and fill privately.
+  - Keep sensitive immigration, family, health, and employer details out of the public repo.

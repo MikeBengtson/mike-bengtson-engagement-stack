@@ -14,6 +14,7 @@ Treat this repository as the source of truth. Do not invent, exaggerate, or smoo
 - **Prefer humans first.** Root and folder READMEs should stay readable by people browsing GitHub.
 - **Use YAML as the control surface.** YAML files are for agents, validation, scoring, and export. Markdown remains the human source of truth.
 - **Protect private overlays.** If private data is absent, do not infer it. Use placeholders or ask.
+- **Public first, private when needed.** Public files may say that a threshold exists without revealing the threshold. Private files under `private/` may contain actual salary floors, immigration details, constraints, or negotiation strategy.
 
 ## Source-Of-Truth Order
 
@@ -40,11 +41,15 @@ If the user asks for specialization by role, industry, client, or job descriptio
 
 ### Evaluate An Engagement Request
 
-Read `engagements/current-preferences.md`, `engagements/current-preferences.yaml`, `engagements/evaluation-rubric.md`, `engagements/evaluation-rubric.yaml`, `engagements/offer-packet.schema.yaml`, `engagements/request-instructions.md`, and any offer packet provided. If required fields are missing, draft a clarification response before scoring. Preserve the distinction between dealbreakers, weighted preferences, and trade-off rules.
+Read `engagements/current-preferences.md`, `engagements/current-preferences.yaml`, `engagements/evaluation-rubric.md`, `engagements/evaluation-rubric.yaml`, `engagements/offer-packet.schema.yaml`, `engagements/request-instructions.md`, any available `private/*.private.md` or `private/*.private.yaml`, and any offer packet provided. If required fields are missing, draft a clarification response before scoring. Preserve the distinction between dealbreakers, weighted preferences, and trade-off rules.
 
 ### Generate An Evaluation Rubric
 
 Use `prompts/generate-evaluation-rubric.md` to help the user define how offers should be scored. Keep sensitive floors, private constraints, immigration details, and negotiation thresholds out of public files unless the user explicitly approves.
+
+### Use Private Overlays
+
+Use `private.example/` as the example pattern. Real private overlays should live under ignored `private/` paths such as `private/compensation.private.yaml`, `private/constraints.private.yaml`, and `private/negotiation.private.md`. Never copy private values into public files unless the user explicitly asks.
 
 ### Generate LinkedIn Or ATS Material
 

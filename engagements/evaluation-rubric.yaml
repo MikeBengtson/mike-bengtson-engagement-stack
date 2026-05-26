@@ -7,6 +7,10 @@ status: scaffold
 scoring:
   max_score: 100
   default_missing_required_field_action: request_clarification
+  private_overlay_paths:
+    - private/compensation.private.yaml
+    - private/constraints.private.yaml
+    - private/negotiation.private.md
   recommendation_bands:
     strong_fit:
       min_score: 85
@@ -77,8 +81,16 @@ categories:
       - equity_or_upside
       - expense_reimbursement
     scoring_notes:
-      - Sensitive compensation floors can live in a private overlay.
+      - Sensitive compensation floors should live in a private overlay.
       - Contracting, urgency, travel, in-office work, and exclusivity may require premiums.
+    private_overlay_fields:
+      - salary_floor
+      - target_salary
+      - total_comp_floor
+      - hourly_floor
+      - target_hourly
+      - fixed_bid_minimum
+      - retainer_minimum_monthly
     tradeoff_rules:
       contracting_premium:
         description: Contract work should price in self-employment tax, unpaid time, benefits, and risk.
@@ -147,6 +159,13 @@ categories:
     scoring_notes:
       - Reject or clarify offers that cannot legally work.
       - Do not infer citizenship, visa, clearance, or licensing status from silence.
+    private_overlay_fields:
+      - citizenship
+      - visa_status
+      - sponsorship_needed
+      - clearance
+      - export_control_notes
+      - jurisdictions_available
 
   role_and_scope_fit:
     weight: 12

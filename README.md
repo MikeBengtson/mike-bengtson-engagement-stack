@@ -34,6 +34,7 @@ It is not just a resume template. It is a framework for maintaining a complete p
 - [🎯 What This Repo Is For](#-what-this-repo-is-for)
 - [🧠 Core Rule](#-core-rule)
 - [🙏 Inspiration](#-inspiration)
+- [🔒 Public Repo, Private Overlay](#-public-repo-private-overlay)
 - [📦 Repository Layout](#-repository-layout)
 - [🧪 Examples](#-examples)
 - [📄 Resume And Submission Outputs](#-resume-and-submission-outputs)
@@ -74,6 +75,16 @@ Markdown is the human source of truth. YAML is the agent and automation surface.
 
 Every important human document can have a YAML sidecar. The Markdown explains the person and their work. The YAML gives agents structured fields for routing, matching, scoring, validation, and export.
 
+## 🔒 Public Repo, Private Overlay
+
+Engagement Stack is designed to be useful as a public repo without exposing private negotiation data.
+
+Keep public-safe priorities in `engagements/`, such as preferred engagement models, remote/hybrid/in-office posture, offer packet requirements, and general trade-off rules. Keep sensitive data in a local `private/` overlay, such as salary floors, target compensation, immigration details, current-employer constraints, family or health constraints, and negotiation thresholds.
+
+The repo includes [private.example/](private.example/) as a copyable starting point. Copy it to `private/` and fill real values there. `.gitignore` keeps `private/` and `*.private.*` files out of version control by default.
+
+Agents should read public files first, then private overlays if present. If private overlays are absent, agents must not infer hidden salary ranges or constraints; they should ask.
+
 ## 🙏 Inspiration
 
 Engagement Stack is inspired in part by [Every Inc.'s `after-automation-agent-mode`](https://github.com/EveryInc/after-automation-agent-mode), especially the idea that a repository can become a durable working surface for agents: local instructions, source material, prompts, review criteria, and outputs arranged so humans and agents can collaborate from the same project context.
@@ -99,6 +110,7 @@ This project applies that pattern to a different domain: a professional Career O
 ├── prompts/                # paste-ready agent prompts
 ├── integrations/           # optional upstream/downstream repo contracts
 ├── maintenance/            # refresh cadence and audit checklists
+├── private.example/         # copy to ignored private/ for sensitive overlays
 ├── templates/              # blank files to copy into a user fork
 ├── examples/               # disposable fictional example content
 ├── scripts/                # optional local convenience scripts

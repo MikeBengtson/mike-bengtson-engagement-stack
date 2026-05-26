@@ -46,7 +46,7 @@ Document the economics that matter:
 - expense reimbursement;
 - premium required for contracting, in-office work, travel, urgency, exclusivity, or risk.
 
-Sensitive compensation floors can live in a private overlay.
+Sensitive compensation floors should live in a private overlay such as `private/compensation.private.yaml`.
 
 ### Location And Physical Presence
 
@@ -167,3 +167,9 @@ Examples:
 ## Offer Validation
 
 Before scoring, an agent should check whether the offer packet includes enough information for each high-weight category. If not, draft a clarification request instead of inventing assumptions.
+
+## Private Overlay
+
+This public rubric can say that a premium or threshold exists without revealing the number. Real salary floors, target compensation, private work authorization details, current-employer constraints, family or health constraints, and negotiation strategy should live under ignored `private/` files.
+
+Use `private.example/` as the copyable pattern. If private overlays are absent, agents should not infer hidden thresholds.

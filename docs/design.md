@@ -67,6 +67,20 @@ The rubric has three layers:
 
 Incoming offers are validated against `engagements/offer-packet.schema.yaml` before scoring. If key fields are missing, the agent drafts a clarification request instead of inventing assumptions.
 
+## Public And Private Layers
+
+The main repo is designed to be public. It should contain public-safe preferences, evidence, portfolio material, and generic trade-off rules.
+
+Sensitive details belong in ignored private overlays:
+
+```text
+private/compensation.private.yaml
+private/constraints.private.yaml
+private/negotiation.private.md
+```
+
+The committed `private.example/` folder documents this pattern without exposing real data. Agents may use private overlays when present, but must not infer hidden salary ranges, work authorization details, or constraints when they are absent.
+
 ## Runtime Posture
 
 No local runtime is required. Agents populate Markdown/YAML through prompts. GitHub Actions can render resumes.
