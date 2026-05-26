@@ -17,6 +17,17 @@ fields:
     type: list
   employment_type_recommendations:
     type: list
+  compensation_preferences:
+    type: map
+    item_shape:
+      annual_salary_min: number_or_null
+      annual_salary_target: number_or_null
+      annual_salary_max: number_or_null
+      hourly_rate_min: number_or_null
+      hourly_rate_target: number_or_null
+      hourly_rate_max: number_or_null
+      hourly_rate_basis: string
+      notes: string
   geographic_preferences:
     type: map
   resume_recommendations:

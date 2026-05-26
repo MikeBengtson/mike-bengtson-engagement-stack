@@ -39,6 +39,8 @@ Clarify trade-offs. For example: full-time may be preferred, but contract work m
 Document the economics that matter:
 
 - salary, hourly rate, fixed fee, retainer, or budget range;
+- contractor hourly minimum, target, and maximum/stretch quote;
+- contractor rate basis, such as W2 contract, 1099, corp-to-corp, retainer-equivalent, expected billable hours, and whether the rate includes taxes, benefits, insurance, equipment, travel, fees, unpaid time, or bench time;
 - bonus, commission, equity, token, or upside structure;
 - benefits and paid time off;
 - payment schedule;

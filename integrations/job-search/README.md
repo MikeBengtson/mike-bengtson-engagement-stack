@@ -41,7 +41,7 @@ Engagement Stack can ingest those files using [../../prompts/ingest-job-search-e
 | transferable skills | `cv/skills.md`, `cv/skills.yaml` after user review |
 | employment type recommendations | `engagements/current-preferences.md`, `engagements/current-preferences.yaml` after user review |
 | geographic preferences | `engagements/current-preferences.yaml` and `engagements/evaluation-rubric.yaml` after user review |
-| compensation or logistics recommendations | `engagements/evaluation-rubric.md`, `engagements/evaluation-rubric.yaml`, or a private overlay after user review |
+| compensation preferences | `engagements/evaluation-rubric.md`, `engagements/evaluation-rubric.yaml`, or `private/compensation.private.yaml` after user review; contractor paths should include hourly min/target/max and rate basis |
 | resume recommendations | `resume-shaders/` or `prompts/create-resume-shader.md` after user review |
 | resume shader recommendations | proposed `resume-shaders/<slug>.md` and `resume-shaders/<slug>.yaml` using the exported description, rationale, target, emphasis, language, and evidence-gap fields |
 | LinkedIn recommendations | `submissions/linkedin/` |

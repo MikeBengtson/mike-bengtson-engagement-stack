@@ -20,6 +20,14 @@ categories:
   compensation_and_economics:
     weight: TODO
     floors_private: true
+    private_rate_fields:
+      annual_salary_min: TODO
+      annual_salary_target: TODO
+      annual_salary_max: TODO
+      hourly_rate_min: TODO
+      hourly_rate_target: TODO
+      hourly_rate_max: TODO
+      hourly_rate_basis: TODO
     premiums:
       contract_multiplier: TODO
       in_office_multiplier: TODO

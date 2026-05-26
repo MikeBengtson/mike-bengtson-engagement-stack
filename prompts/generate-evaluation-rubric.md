@@ -25,6 +25,8 @@ If private overlays exist, also read:
 
 If a `job-search-export.yaml` is available, use it as advisory input for target roles, target industries, geography, employment-type recommendations, compensation posture, and resume shader recommendations. Do not treat it as canonical fact.
 
+If the incoming export recommends contract, freelance, fractional, advisory, or other non-salary engagement types but does not include contractor hourly-rate minimum and maximum values, ask for them in interview mode before finalizing compensation trade-offs.
+
 ## Goal
 
 Create or update:
@@ -74,6 +76,14 @@ Ask whether patterns like these apply:
 - lower cash is acceptable with meaningful equity, public proof, or strategic career value;
 - a weaker title is acceptable with strong scope and decision rights;
 - a boring domain is acceptable for exceptional compensation or low schedule load.
+
+For contractor paths, always clarify:
+
+- minimum acceptable hourly rate;
+- target hourly rate;
+- stretch or maximum quoted hourly rate;
+- rate basis, such as W2 contract, 1099, corp-to-corp, retainer-equivalent, expected billable hours, or whether the rates include taxes, benefits, bench time, insurance, equipment, travel, and platform fees;
+- whether the values belong in ignored `private/compensation.private.yaml`.
 
 ## Scoring Rules
 

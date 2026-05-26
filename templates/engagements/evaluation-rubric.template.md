@@ -21,6 +21,10 @@ Use this template to describe how opportunities should be scored and what trade-
 ## Compensation And Premiums
 
 - Full-time target: TODO
+- Contractor hourly minimum: TODO
+- Contractor hourly target: TODO
+- Contractor hourly maximum / stretch quote: TODO
+- Contractor rate basis: TODO
 - Contract premium: TODO
 - In-office premium: TODO
 - Travel premium: TODO

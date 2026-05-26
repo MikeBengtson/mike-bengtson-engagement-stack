@@ -84,11 +84,14 @@ categories:
       - Sensitive compensation floors should live in a private overlay.
       - Contracting, urgency, travel, in-office work, and exclusivity may require premiums.
     private_overlay_fields:
-      - salary_floor
-      - target_salary
+      - annual_salary_min
+      - annual_salary_target
+      - annual_salary_max
       - total_comp_floor
-      - hourly_floor
-      - target_hourly
+      - hourly_rate_min
+      - hourly_rate_target
+      - hourly_rate_max
+      - hourly_rate_basis
       - fixed_bid_minimum
       - retainer_minimum_monthly
     tradeoff_rules:

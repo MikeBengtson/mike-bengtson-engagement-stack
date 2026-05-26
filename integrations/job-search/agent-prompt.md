@@ -11,6 +11,8 @@ Do not invent canonical CV facts. Mark recommendations as recommendations, not f
 
 If you identify possible resume specializations, emit them as `resume_shader_recommendations` rather than rewriting the canonical CV.
 
+If you recommend contract, freelance, fractional, advisory, or other non-salary engagement paths, emit `compensation_preferences` with `hourly_rate_min`, `hourly_rate_target`, `hourly_rate_max`, and `hourly_rate_basis` when the user supplied them. If they are missing, leave them null and note that Engagement Stack should interview for contractor hourly min/max before finalizing the rubric.
+
 Each shader recommendation must include:
 
 - `name`

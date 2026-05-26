@@ -13,11 +13,36 @@ Then map the export into:
 - `submissions/linkedin/job-search-request.md`
 - `engagements/current-preferences.md`
 - `engagements/current-preferences.yaml`
+- `engagements/evaluation-rubric.md` and `engagements/evaluation-rubric.yaml` for public-safe compensation posture and trade-off rules
+- `private/compensation.private.yaml` for private annual salary and contractor hourly-rate min/target/max values, only if the user approves storing them locally
 - `cv/skills.md`
 - `resume-shaders/<slug>.md` and `resume-shaders/<slug>.yaml` for approved shader recommendations
 - `submissions/ats-generic/field-pack.md`
 
 Ask before changing canonical work-history facts.
+
+## Compensation Preference Ingestion
+
+Read `compensation_preferences` from the export when present:
+
+- `annual_salary_min`
+- `annual_salary_target`
+- `annual_salary_max`
+- `hourly_rate_min`
+- `hourly_rate_target`
+- `hourly_rate_max`
+- `hourly_rate_basis`
+- `notes`
+
+If the export recommends contract, freelance, fractional, advisory, or other non-salary engagement types but does not include `hourly_rate_min` and `hourly_rate_max`, switch to interview mode before finalizing the rubric. Ask the user:
+
+1. What is your minimum acceptable contractor hourly rate?
+2. What is your target contractor hourly rate?
+3. What is your stretch or maximum quoted contractor hourly rate?
+4. What is the rate basis: W2 contract, 1099, corp-to-corp, retainer-equivalent, or something else?
+5. Should these numbers be stored privately under `private/compensation.private.yaml`?
+
+Keep actual salary and hourly-rate numbers out of public files unless the user explicitly approves public storage. Public files can state that contractor rates exist privately and describe the trade-off logic.
 
 ## Resume Shader Ingestion
 
