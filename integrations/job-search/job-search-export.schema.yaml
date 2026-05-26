@@ -23,6 +23,22 @@ fields:
     type: list
   resume_shader_recommendations:
     type: list
+    item_shape:
+      name: string
+      slug: string
+      description: string
+      rationale: string
+      target:
+        role: string
+        industry: string
+        seniority: string
+        platform: string
+      emphasize: list
+      deemphasize: list
+      preferred_terms: list
+      avoid_terms: list
+      evidence_gaps: list
+      source_report_sections: list
   linkedin_recommendations:
     type: list
   next_steps:
