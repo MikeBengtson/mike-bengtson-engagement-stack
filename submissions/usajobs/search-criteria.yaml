@@ -1,0 +1,17 @@
+schema: usajobs_search_criteria/v1
+agent_surface: true
+visibility: public
+
+api:
+  supported: true
+  requires_api_key: true
+  base_url: https://data.usajobs.gov/api/search
+
+criteria:
+  keywords: []
+  location_names: []
+  remote: null
+  pay_grade_low: null
+  pay_grade_high: null
+  job_category_codes: []
+  hiring_paths: []

@@ -1,0 +1,42 @@
+schema: resume_shader/v1
+agent_surface: true
+canonical_markdown: <shader-slug>.md
+visibility: public
+
+name: TODO
+description: TODO
+
+target:
+  role: TODO
+  industry: TODO
+  seniority: TODO
+  platform: TODO
+  job_description_url: null
+
+emphasis:
+  skills: []
+  projects: []
+  domains: []
+  outcomes: []
+  evidence: []
+
+deemphasis:
+  skills: []
+  projects: []
+  domains: []
+
+constraints:
+  max_pages: 2
+  ats_friendly: true
+  include_links: true
+
+language:
+  preferred_terms: []
+  avoid_terms: []
+  tone: TODO
+
+outputs:
+  scoped_resume_source: generated/resumes/<shader-slug>.md
+  pdf: generated/resumes/<shader-slug>.pdf
+  docx: generated/resumes/<shader-slug>.docx
+  txt: generated/resumes/<shader-slug>.txt

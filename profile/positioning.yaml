@@ -1,0 +1,11 @@
+schema: profile_positioning/v1
+agent_surface: true
+canonical_markdown: positioning.md
+visibility: public
+
+one_line: TODO
+target_roles: []
+target_clients: []
+best_fit_work: []
+not_a_fit: []
+keywords: []

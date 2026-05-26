@@ -1,0 +1,15 @@
+schema: engagement_preferences/v1
+agent_surface: true
+canonical_markdown: current-preferences.example.md
+visibility: example
+
+location:
+  remote:
+    acceptable: true
+    score_placeholder: 100
+  hybrid_local:
+    acceptable: conditional
+    score_placeholder: 70
+  full_time_in_office:
+    acceptable: false
+    score_placeholder: 20

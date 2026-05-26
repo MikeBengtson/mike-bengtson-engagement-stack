@@ -1,0 +1,6 @@
+schema: work_history/v1
+agent_surface: true
+canonical_markdown: work-history.md
+visibility: public
+
+roles: []

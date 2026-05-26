@@ -1,0 +1,14 @@
+schema: portfolio_project/v1
+agent_surface: true
+canonical_markdown: README.example.md
+visibility: example
+
+name: Agentic Dashboard
+slug: agentic-dashboard
+status: fictional_example
+role: lead engineer
+links:
+  repository: https://github.com/example/agentic-dashboard
+  live: https://example.com/agentic-dashboard
+claims_supported:
+  - agent workflow product design

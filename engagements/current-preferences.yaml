@@ -1,0 +1,34 @@
+schema: engagement_preferences/v1
+agent_surface: true
+canonical_markdown: current-preferences.md
+visibility: public
+
+availability:
+  status: TODO
+  starts_after: null
+  weekly_capacity_hours: null
+
+location:
+  remote:
+    acceptable: null
+    score_placeholder: 100
+  hybrid_local:
+    acceptable: null
+    score_placeholder: 70
+  full_time_in_office:
+    acceptable: null
+    score_placeholder: 20
+
+engagement_types:
+  full_time:
+    acceptable: null
+  hourly_contract:
+    acceptable: null
+  fixed_bid:
+    acceptable: null
+  advisory_fractional:
+    acceptable: null
+  assignment_consignment_outcome:
+    acceptable: null
+
+dealbreakers: []

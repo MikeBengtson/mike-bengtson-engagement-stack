@@ -1,0 +1,14 @@
+schema: offer_packet/v1_placeholder
+agent_surface: true
+status: placeholder
+required_fields_future:
+  - engagement_type
+  - organization
+  - role_or_scope
+  - location_model
+  - compensation_or_budget
+  - start_date
+  - duration
+  - decision_process
+  - legal_terms
+  - evaluation_deadline

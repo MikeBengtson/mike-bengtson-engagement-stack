@@ -1,0 +1,16 @@
+.DS_Store
+._*
+
+# Generated artifacts can be rebuilt.
+generated/resumes/*.pdf
+generated/resumes/*.docx
+generated/resumes/*.txt
+generated/resumes/*.html
+generated/resumes/*.md
+!generated/resumes/README.md
+
+# Private overlays are intentionally local by default.
+private/
+*.private.md
+*.private.yaml
+*.private.yml

@@ -1,0 +1,11 @@
+schema: skills/v1
+agent_surface: true
+canonical_markdown: skills.md
+visibility: public
+
+skill_groups:
+  engineering: []
+  architecture: []
+  product_delivery: []
+  leadership: []
+  tools_platforms: []

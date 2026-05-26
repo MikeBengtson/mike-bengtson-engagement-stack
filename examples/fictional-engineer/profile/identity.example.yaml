@@ -1,0 +1,12 @@
+schema: profile_identity/v1
+agent_surface: true
+canonical_markdown: identity.example.md
+visibility: example
+
+name:
+  public: Jordan Example
+location:
+  public_location: US Eastern
+contact:
+  github: https://github.com/example
+  linkedin: https://linkedin.com/in/example

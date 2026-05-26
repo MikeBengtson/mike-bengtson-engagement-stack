@@ -1,0 +1,10 @@
+schema: evidence_index/v1
+agent_surface: true
+canonical_markdown: README.md
+visibility: public
+
+repositories: []
+live_products: []
+artifacts: []
+references: []
+metrics: []

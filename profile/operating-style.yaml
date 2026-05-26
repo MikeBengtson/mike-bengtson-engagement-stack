@@ -1,0 +1,14 @@
+schema: operating_style/v1
+agent_surface: true
+canonical_markdown: operating-style.md
+visibility: public
+
+communication:
+  async_first: null
+  meeting_preference: TODO
+  documentation_preference: TODO
+
+work_style:
+  strengths: []
+  constraints: []
+  collaboration_modes: []

@@ -1,0 +1,19 @@
+schema: canonical_cv/v1
+agent_surface: true
+canonical_markdown: canonical-cv.md
+visibility: public
+
+summary: TODO
+resume_targets:
+  markdown_native: true
+  one_page: true
+  two_page: true
+  ats_docx: true
+  ats_txt: true
+  full_cv: true
+  usajobs: false
+
+facts_policy:
+  canonical_only: true
+  tailoring_allowed_in_generated_outputs: true
+  fabrication_allowed: false

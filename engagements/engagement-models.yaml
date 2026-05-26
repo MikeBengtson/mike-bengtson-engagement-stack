@@ -1,0 +1,11 @@
+schema: engagement_models/v1
+agent_surface: true
+canonical_markdown: engagement-models.md
+visibility: public
+
+models:
+  full_time: {}
+  hourly_contract: {}
+  fixed_bid: {}
+  advisory_fractional: {}
+  assignment_consignment_outcome: {}

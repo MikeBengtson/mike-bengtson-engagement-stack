@@ -1,0 +1,15 @@
+schema: linkedin_profile_export/v1
+agent_surface: true
+canonical_markdown: profile-export.md
+visibility: public
+
+headline: TODO
+about: TODO
+open_to_work:
+  roles: []
+  locations: []
+  remote_preference: TODO
+featured: []
+experience: []
+skills: []
+projects: []

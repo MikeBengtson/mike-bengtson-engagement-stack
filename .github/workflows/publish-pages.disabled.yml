@@ -1,0 +1,12 @@
+# Disabled example workflow. Rename this file to publish-pages.yml and configure
+# GitHub Pages if you want to publish a static site later.
+name: Publish Pages Disabled
+
+on:
+  workflow_dispatch:
+
+jobs:
+  disabled:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "GitHub Pages publishing is intentionally disabled by default."

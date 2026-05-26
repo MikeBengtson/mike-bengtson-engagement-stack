@@ -1,0 +1,6 @@
+schema: target_roles/v1
+agent_surface: true
+canonical_markdown: current-search.md
+visibility: public
+
+roles: []

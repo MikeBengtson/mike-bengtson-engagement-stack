@@ -1,0 +1,11 @@
+schema: indeed_profile_pack/v1
+agent_surface: true
+canonical_markdown: profile-pack.md
+visibility: public
+
+summary: TODO
+skills: []
+resume_artifacts:
+  ats_docx: generated/resumes/resume-ats.docx
+  ats_txt: generated/resumes/resume-ats.txt
+common_answers: []

@@ -1,0 +1,20 @@
+schema: profile_identity/v1
+agent_surface: true
+canonical_markdown: identity.md
+visibility: public
+
+name:
+  public: TODO
+  legal_private: null
+
+location:
+  public_location: TODO
+  timezone: TODO
+  relocation_open: null
+
+contact:
+  preferred: TODO
+  email: TODO
+  linkedin: TODO
+  github: TODO
+  website: TODO

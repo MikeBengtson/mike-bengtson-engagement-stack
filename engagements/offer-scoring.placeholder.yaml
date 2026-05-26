@@ -1,0 +1,16 @@
+schema: offer_scoring/v1_placeholder
+agent_surface: true
+status: placeholder
+notes: Define personal scoring weights in a private or public overlay.
+example_categories:
+  physical_engagement_model:
+    remote: 100
+    hybrid_local: 70
+    full_time_in_office: 20
+  compensation: null
+  mission_fit: null
+  technical_fit: null
+  autonomy: null
+  schedule: null
+  risk: null
+  upside: null

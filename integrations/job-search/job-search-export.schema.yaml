@@ -1,0 +1,33 @@
+schema: job_search_export/v1
+agent_surface: true
+status: draft_contract
+
+report_markdown: job-search-report.md
+
+fields:
+  summary:
+    type: string
+  target_roles:
+    type: list
+  target_industries:
+    type: list
+  industry_classifications:
+    type: list
+  transferable_skills:
+    type: list
+  employment_type_recommendations:
+    type: list
+  geographic_preferences:
+    type: map
+  resume_recommendations:
+    type: list
+  resume_shader_recommendations:
+    type: list
+  linkedin_recommendations:
+    type: list
+  next_steps:
+    type: list
+  canonical_fact_updates_requiring_review:
+    type: list
+  evidence_gaps:
+    type: list

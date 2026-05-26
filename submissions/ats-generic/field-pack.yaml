@@ -1,0 +1,13 @@
+schema: ats_field_pack/v1
+agent_surface: true
+canonical_markdown: field-pack.md
+visibility: public
+
+contact: {}
+work_authorization:
+  public_answer: TODO
+work_history: []
+education: []
+skills: []
+portfolio_links: []
+common_answers: []

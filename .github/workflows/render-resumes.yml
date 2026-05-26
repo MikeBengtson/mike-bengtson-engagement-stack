@@ -1,0 +1,42 @@
+name: Render Resumes
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Markdown source file to render
+        required: false
+        default: cv/resume-source.md
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Create output directory
+        run: mkdir -p generated/resumes
+
+      - name: Create Markdown-native resume artifacts
+        run: |
+          cp "${{ inputs.source }}" generated/resumes/resume-one-page.md
+          cp "${{ inputs.source }}" generated/resumes/resume-two-page.md
+          cp "${{ inputs.source }}" generated/resumes/resume-ats.md
+          cp "${{ inputs.source }}" generated/resumes/resume-full-cv.md
+          cp "${{ inputs.source }}" generated/resumes/resume-usajobs.md
+
+      - name: Render PDF and DOCX with Pandoc Docker image
+        run: |
+          docker run --rm --volume "$PWD:/data" pandoc/latex "${{ inputs.source }}" -s -o generated/resumes/resume-one-page.pdf
+          docker run --rm --volume "$PWD:/data" pandoc/latex "${{ inputs.source }}" -s -o generated/resumes/resume-two-page.pdf
+          docker run --rm --volume "$PWD:/data" pandoc/latex "${{ inputs.source }}" -s -o generated/resumes/resume-ats.docx
+          docker run --rm --volume "$PWD:/data" pandoc/core "${{ inputs.source }}" -t plain -o generated/resumes/resume-ats.txt
+          docker run --rm --volume "$PWD:/data" pandoc/latex "${{ inputs.source }}" -s -o generated/resumes/resume-full-cv.pdf
+          docker run --rm --volume "$PWD:/data" pandoc/latex "${{ inputs.source }}" -s -o generated/resumes/resume-usajobs.pdf
+
+      - name: Upload resume artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: rendered-resumes
+          path: generated/resumes/

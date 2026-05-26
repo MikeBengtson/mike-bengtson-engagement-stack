@@ -1,0 +1,8 @@
+schema: portfolio_index/v1
+agent_surface: true
+canonical_markdown: README.md
+visibility: public
+
+featured_projects: []
+project_order: []
+domains: []

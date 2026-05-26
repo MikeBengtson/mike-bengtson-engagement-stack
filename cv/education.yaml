@@ -1,0 +1,9 @@
+schema: education_credentials/v1
+agent_surface: true
+canonical_markdown: education.md
+visibility: public
+
+education: []
+certifications: []
+publications: []
+talks: []
