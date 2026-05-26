@@ -4,6 +4,8 @@
 
 # Engagement Stack
 
+> **Have your agent call mine.**
+
 <p>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-22c55e" alt="License: MIT" /></a>&nbsp;
   <a href="AGENTS.md"><img src="https://img.shields.io/badge/agents-readable-06b6d4" alt="Agent readable" /></a>&nbsp;
@@ -22,7 +24,7 @@
   <a href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2FMikeBengtson%2Fengagement-stack&t=Engagement%20Stack:%20a%20Career%20OS%20for%20humans%20and%20agents"><img src="https://img.shields.io/badge/share-FF6600?logo=ycombinator&logoColor=white" alt="Share on Hacker News" /></a>
 </p>
 
-Engagement Stack is a human-first, agent-readable Career OS: a source-controlled professional dossier for CV, work history, portfolio evidence, engagement preferences, structured offer requests, and job-search submission materials.
+Engagement Stack is a human-first, agent-readable Career OS: a source-controlled professional dossier for CV, work history, portfolio evidence, engagement preferences, structured offer requests, evaluation rubrics, trade-off rules, and job-search submission materials.
 
 It is not just a resume template. It is a framework for maintaining a complete professional record that humans can browse directly on GitHub and agents can read, cite, tailor, and transform without inventing facts.
 
@@ -48,6 +50,7 @@ It is not just a resume template. It is a framework for maintaining a complete p
 - [Portfolio](portfolio/README.md)
 - [Evidence](evidence/README.md)
 - [Engagement Preferences](engagements/README.md)
+- [Evaluation Rubric](engagements/evaluation-rubric.md)
 - [Submission Adapters](submissions/README.md)
 - [Maintenance System](maintenance/README.md)
 
@@ -59,6 +62,7 @@ Engagement Stack answers five practical questions:
 - **What have they done?** See `cv/` and `portfolio/`.
 - **What proves it?** See `evidence/` and each project claim map.
 - **What engagement do they want now?** See `engagements/`.
+- **How should offers be evaluated?** See `engagements/evaluation-rubric.md`.
 - **What can be generated for a channel?** See `submissions/` and `generated/`.
 - **How should a resume be specialized?** See `resume-shaders/`.
 

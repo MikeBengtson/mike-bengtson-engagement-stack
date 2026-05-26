@@ -6,6 +6,7 @@
 - [ ] Add at least one portfolio project.
 - [ ] Add proof links for every public claim where possible.
 - [ ] Fill current engagement preferences.
+- [ ] Fill evaluation rubric trade-offs or mark defaults as intentional.
 - [ ] Fill contact and request instructions.
 - [ ] Review LinkedIn export material.
 - [ ] Render resume artifacts.

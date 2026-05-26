@@ -6,7 +6,8 @@ Start with:
 
 - [current-preferences.md](current-preferences.md)
 - [engagement-models.md](engagement-models.md)
+- [evaluation-rubric.md](evaluation-rubric.md)
 - [request-instructions.md](request-instructions.md)
 - [request-email-format.md](request-email-format.md)
 
-Offer packet and scoring files are placeholders in v1.0.
+Use [evaluation-rubric.md](evaluation-rubric.md) and [evaluation-rubric.yaml](evaluation-rubric.yaml) to express dealbreakers, weighted preferences, and trade-off rules. Use [offer-packet.schema.yaml](offer-packet.schema.yaml) to validate whether an incoming offer includes enough information to score.

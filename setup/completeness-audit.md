@@ -26,7 +26,8 @@ Use this before sharing the stack.
 - [ ] Desired engagement models are explicit.
 - [ ] Remote/hybrid/in-office preferences are explicit.
 - [ ] Request instructions include subject line and required fields.
-- [ ] Offer scoring is marked placeholder or filled.
+- [ ] Evaluation rubric distinguishes dealbreakers, weighted preferences, and trade-off rules.
+- [ ] Offer packet schema includes the fields needed to score high-priority criteria.
 
 ## Submissions
 

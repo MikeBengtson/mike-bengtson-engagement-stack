@@ -26,11 +26,11 @@ The default setup requires only GitHub, Markdown, YAML, and an agent. Local scri
 5. `cv/skills.md`
 6. `portfolio/README.md`
 7. `engagements/current-preferences.md`
-8. `engagements/request-instructions.md`
+8. `engagements/evaluation-rubric.md`
+9. `engagements/request-instructions.md`
 
 ## What Can Wait
 
-- Offer scoring details.
 - Private compensation thresholds.
 - Deep project case studies.
 - References and testimonials.

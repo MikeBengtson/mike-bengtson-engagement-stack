@@ -2,6 +2,8 @@
 
 Describe what the person wants now. Keep this public-safe. Sensitive floors, private constraints, and negotiation details can live in a private overlay.
 
+Use `evaluation-rubric.md` for scoring weights, dealbreakers, and trade-off rules.
+
 ## Availability
 
 TODO

@@ -40,7 +40,11 @@ If the user asks for specialization by role, industry, client, or job descriptio
 
 ### Evaluate An Engagement Request
 
-Read `engagements/current-preferences.md`, `engagements/current-preferences.yaml`, `engagements/request-instructions.md`, and any offer packet provided. If required fields are missing, draft a clarification response before scoring. Offer scoring is intentionally a placeholder until the user defines it.
+Read `engagements/current-preferences.md`, `engagements/current-preferences.yaml`, `engagements/evaluation-rubric.md`, `engagements/evaluation-rubric.yaml`, `engagements/offer-packet.schema.yaml`, `engagements/request-instructions.md`, and any offer packet provided. If required fields are missing, draft a clarification response before scoring. Preserve the distinction between dealbreakers, weighted preferences, and trade-off rules.
+
+### Generate An Evaluation Rubric
+
+Use `prompts/generate-evaluation-rubric.md` to help the user define how offers should be scored. Keep sensitive floors, private constraints, immigration details, and negotiation thresholds out of public files unless the user explicitly approves.
 
 ### Generate LinkedIn Or ATS Material
 

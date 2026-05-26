@@ -1,0 +1,94 @@
+schema: engagement_evaluation_rubric/v1
+agent_surface: true
+canonical_markdown: evaluation-rubric.md
+visibility: public
+status: draft
+
+scoring:
+  max_score: 100
+  default_missing_required_field_action: request_clarification
+
+dealbreakers: []
+
+categories:
+  engagement_model:
+    weight: TODO
+    preferred: []
+    acceptable: []
+    acceptable_with_tradeoff: []
+
+  compensation_and_economics:
+    weight: TODO
+    floors_private: true
+    premiums:
+      contract_multiplier: TODO
+      in_office_multiplier: TODO
+      travel_multiplier: TODO
+      urgency_multiplier: TODO
+
+  location_and_presence:
+    weight: TODO
+    remote:
+      status: TODO
+      score: TODO
+    hybrid_local:
+      status: TODO
+      score: TODO
+    hybrid_non_local:
+      status: TODO
+      score: TODO
+    full_time_in_office:
+      status: TODO
+      score: TODO
+    relocation:
+      status: TODO
+      score: TODO
+
+  travel_and_schedule:
+    weight: TODO
+    max_travel_percentage: TODO
+    on_call_posture: TODO
+    meeting_load_posture: TODO
+
+  work_authorization_and_compliance:
+    weight: TODO
+    citizenship_requirement: TODO
+    visa_sponsorship_requirement: TODO
+    clearance_requirement: TODO
+    jurisdiction_constraints: []
+
+  role_and_scope_fit:
+    weight: TODO
+    desired_scope: []
+    avoided_scope: []
+
+  technical_domain_and_craft_fit:
+    weight: TODO
+    preferred_domains: []
+    preferred_stacks: []
+    avoided_work: []
+
+  mission_values_and_reputation:
+    weight: TODO
+    preferred: []
+    avoided: []
+
+  autonomy_and_operating_model:
+    weight: TODO
+    preferred: []
+    avoided: []
+
+  legal_ip_and_risk:
+    weight: TODO
+    requires_review:
+      - ip_terms
+      - noncompete_or_nonsolicit
+      - liability_or_indemnity
+
+  portfolio_rights_and_career_leverage:
+    weight: TODO
+    preferred: []
+
+offer_packet_validation:
+  minimum_required_for_scoring: []
+  missing_required_field_action: draft_clarification_request

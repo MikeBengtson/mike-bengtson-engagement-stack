@@ -22,6 +22,8 @@ career-strategy/README.md
 engagements/README.md
 engagements/current-preferences.md
 engagements/current-preferences.yaml
+engagements/evaluation-rubric.md
+engagements/evaluation-rubric.yaml
 engagements/request-instructions.md
 submissions/README.md
 ```

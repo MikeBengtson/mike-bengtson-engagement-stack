@@ -1,0 +1,234 @@
+schema: engagement_evaluation_rubric/v1
+agent_surface: true
+canonical_markdown: evaluation-rubric.md
+visibility: public
+status: scaffold
+
+scoring:
+  max_score: 100
+  default_missing_required_field_action: request_clarification
+  recommendation_bands:
+    strong_fit:
+      min_score: 85
+      action: pursue
+    possible_fit:
+      min_score: 70
+      action: clarify_or_negotiate
+    weak_fit:
+      min_score: 50
+      action: decline_unless_tradeoff_applies
+    poor_fit:
+      max_score: 49
+      action: decline
+
+statuses:
+  - dealbreaker
+  - preferred
+  - acceptable
+  - acceptable_with_tradeoff
+  - requires_clarification
+  - not_acceptable
+
+dealbreakers:
+  - id: legal_inability_to_work
+    description: The engagement cannot legally be performed because of work authorization, jurisdiction, clearance, licensing, or compliance constraints.
+    allow_override: false
+  - id: unsupported_required_claims
+    description: The offer depends on claims, credentials, or work history that are not present in this stack and cannot be evidenced.
+    allow_override: false
+  - id: unacceptable_legal_terms
+    description: The agreement contains unacceptable IP, noncompete, liability, confidentiality, or exclusivity terms.
+    allow_override: true
+    override_requires: explicit_user_review
+
+categories:
+  engagement_model:
+    weight: 12
+    required_offer_fields:
+      - engagement_type
+      - duration
+      - weekly_capacity_hours
+      - exclusivity
+    options:
+      full_time:
+        status: preferred
+        score: 100
+      hourly_contract:
+        status: acceptable_with_tradeoff
+        score: 75
+        tradeoff_required: compensation_premium
+      fixed_bid:
+        status: acceptable_with_tradeoff
+        score: 65
+        tradeoff_required: clear_scope_and_payment_schedule
+      advisory_fractional:
+        status: acceptable
+        score: 80
+      assignment_consignment_outcome:
+        status: requires_clarification
+        score: 50
+
+  compensation_and_economics:
+    weight: 18
+    required_offer_fields:
+      - compensation_or_budget
+      - payment_schedule
+      - benefits
+      - equity_or_upside
+      - expense_reimbursement
+    scoring_notes:
+      - Sensitive compensation floors can live in a private overlay.
+      - Contracting, urgency, travel, in-office work, and exclusivity may require premiums.
+    tradeoff_rules:
+      contracting_premium:
+        description: Contract work should price in self-employment tax, unpaid time, benefits, and risk.
+        default_multiplier_placeholder: 1.5
+      in_office_premium:
+        description: Full-time in-office work may require higher compensation or unusually strong mission/career fit.
+        default_multiplier_placeholder: 1.25
+
+  location_and_presence:
+    weight: 12
+    required_offer_fields:
+      - location_model
+      - office_location
+      - office_days_per_week
+      - timezone_expectations
+      - relocation_required
+    options:
+      remote:
+        status: preferred
+        score: 100
+      hybrid_local:
+        status: acceptable
+        score: 75
+      hybrid_non_local:
+        status: acceptable_with_tradeoff
+        score: 45
+        tradeoff_required: travel_or_relocation_premium
+      full_time_in_office:
+        status: acceptable_with_tradeoff
+        score: 20
+        tradeoff_required: compensation_mission_or_career_leverage_premium
+      relocation:
+        status: requires_clarification
+        score: 25
+
+  travel_and_schedule:
+    weight: 8
+    required_offer_fields:
+      - travel_percentage
+      - travel_notice
+      - travel_reimbursement
+      - on_call_expectations
+      - meeting_load
+      - schedule_flexibility
+    options:
+      no_or_low_travel:
+        status: preferred
+        score: 100
+      planned_reimbursed_travel:
+        status: acceptable
+        score: 75
+      frequent_or_short_notice_travel:
+        status: acceptable_with_tradeoff
+        score: 35
+        tradeoff_required: travel_premium_and_explicit_limits
+
+  work_authorization_and_compliance:
+    weight: 10
+    required_offer_fields:
+      - work_authorization_required
+      - citizenship_requirement
+      - visa_sponsorship
+      - clearance_requirement
+      - export_control
+      - jurisdiction_requirements
+    scoring_notes:
+      - Reject or clarify offers that cannot legally work.
+      - Do not infer citizenship, visa, clearance, or licensing status from silence.
+
+  role_and_scope_fit:
+    weight: 12
+    required_offer_fields:
+      - role_or_scope
+      - title
+      - seniority
+      - reporting_line
+      - decision_rights
+      - success_criteria
+    scoring_notes:
+      - Score higher when ownership, authority, and expectations match the person's desired work.
+      - Penalize vague scope, unclear success criteria, or responsibility without authority.
+
+  technical_domain_and_craft_fit:
+    weight: 8
+    required_offer_fields:
+      - domain
+      - technical_stack
+      - required_skills
+      - expected_deliverables
+    scoring_notes:
+      - Score higher when the work uses preferred strengths and creates meaningful growth.
+      - Penalize stale, unsupported, or explicitly avoided work.
+
+  mission_values_and_reputation:
+    weight: 6
+    required_offer_fields:
+      - organization
+      - industry
+      - product_or_service
+      - customer_type
+      - reputational_risks
+    scoring_notes:
+      - Mission fit can offset some weaker logistics, but should not override dealbreakers.
+
+  autonomy_and_operating_model:
+    weight: 5
+    required_offer_fields:
+      - management_style
+      - meeting_expectations
+      - documentation_practices
+      - tool_and_process_autonomy
+      - stakeholder_access
+    scoring_notes:
+      - Score higher for clear decision rights, low bureaucracy, and high-trust operating models.
+
+  legal_ip_and_risk:
+    weight: 5
+    required_offer_fields:
+      - ip_terms
+      - confidentiality_terms
+      - noncompete_or_nonsolicit
+      - liability_or_indemnity
+      - cancellation_terms
+      - governing_law
+    scoring_notes:
+      - Unclear or aggressive terms should trigger clarification or professional legal review.
+
+  portfolio_rights_and_career_leverage:
+    weight: 4
+    required_offer_fields:
+      - public_reference_rights
+      - case_study_rights
+      - testimonial_reference_potential
+      - brand_or_network_value
+      - skill_compounding_value
+    scoring_notes:
+      - Public proof, strong references, and compounding skills can improve an otherwise borderline offer.
+
+offer_packet_validation:
+  minimum_required_for_scoring:
+    - engagement_type
+    - organization
+    - role_or_scope
+    - location_model
+    - compensation_or_budget
+    - start_date
+    - duration
+    - weekly_capacity_hours
+    - work_authorization_required
+    - travel_percentage
+    - legal_terms
+    - evaluation_deadline
+  missing_required_field_action: draft_clarification_request

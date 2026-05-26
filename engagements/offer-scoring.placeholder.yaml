@@ -1,7 +1,8 @@
 schema: offer_scoring/v1_placeholder
 agent_surface: true
-status: placeholder
-notes: Define personal scoring weights in a private or public overlay.
+status: deprecated_placeholder
+replaced_by: evaluation-rubric.yaml
+notes: Kept for compatibility with early v1.0 scaffolds. Use evaluation-rubric.md and evaluation-rubric.yaml for current offer scoring and trade-off evaluation.
 example_categories:
   physical_engagement_model:
     remote: 100

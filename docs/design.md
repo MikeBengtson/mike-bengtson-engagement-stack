@@ -9,6 +9,7 @@ It combines:
 - canonical career facts;
 - portfolio evidence;
 - engagement preferences;
+- evaluation rubrics and trade-off rules;
 - offer/request intake;
 - resume shaders;
 - platform-specific submission adapters;
@@ -23,7 +24,8 @@ It combines:
 5. Users can generate traditional resumes at any time.
 6. Users can specialize resumes without corrupting the core CV.
 7. Engagement requests have a clear intake format.
-8. Private overlays are possible without changing the public framework.
+8. Offers can be validated and scored against explicit priorities.
+9. Private overlays are possible without changing the public framework.
 
 ## Information Architecture
 
@@ -52,6 +54,18 @@ Markdown / PDF / DOCX / TXT / platform adapter
 The separate `job-search` workflow remains an advisory strategy tool. It can export `job-search-report.md` and `job-search-export.yaml`, which Engagement Stack can ingest.
 
 This keeps strategy and durable source of truth separate but interoperable.
+
+## Evaluation Rubrics
+
+Engagement Stack separates current preferences from offer evaluation. Preferences describe what the person wants now. The evaluation rubric describes how to weigh trade-offs when an actual opportunity arrives.
+
+The rubric has three layers:
+
+- dealbreakers that should stop or escalate an offer;
+- weighted categories that can be scored;
+- trade-off rules that explain what could make a weaker category acceptable.
+
+Incoming offers are validated against `engagements/offer-packet.schema.yaml` before scoring. If key fields are missing, the agent drafts a clarification request instead of inventing assumptions.
 
 ## Runtime Posture
 

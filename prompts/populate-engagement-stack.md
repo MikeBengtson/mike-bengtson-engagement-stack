@@ -80,6 +80,8 @@ Collect:
 - remote/hybrid/in-office preferences
 - availability
 - dealbreakers
+- offer evaluation priorities
+- trade-offs that would make weaker-fit opportunities acceptable
 - request intake preferences
 
 Update:
@@ -88,9 +90,12 @@ Update:
 - `engagements/current-preferences.yaml`
 - `engagements/engagement-models.md`
 - `engagements/engagement-models.yaml`
+- `engagements/evaluation-rubric.md`
+- `engagements/evaluation-rubric.yaml`
+- `engagements/offer-packet.schema.yaml`
 - `engagements/request-instructions.md`
 
-Leave offer scoring as a placeholder unless I explicitly ask to define it.
+Use `prompts/generate-evaluation-rubric.md` if the user wants a deeper rubric interview.
 
 ## Stage 5: Submission Adapters
 

@@ -1,14 +1,141 @@
-schema: offer_packet/v1_placeholder
+schema: offer_packet/v1
 agent_surface: true
-status: placeholder
-required_fields_future:
-  - engagement_type
-  - organization
-  - role_or_scope
-  - location_model
-  - compensation_or_budget
-  - start_date
-  - duration
-  - decision_process
-  - legal_terms
-  - evaluation_deadline
+status: scaffold
+
+required_fields:
+  engagement_type:
+    type: string
+    examples:
+      - full_time
+      - hourly_contract
+      - fixed_bid
+      - advisory_fractional
+      - assignment_consignment_outcome
+  organization:
+    type: string
+  role_or_scope:
+    type: string
+  location_model:
+    type: string
+    examples:
+      - remote
+      - hybrid_local
+      - hybrid_non_local
+      - full_time_in_office
+      - relocation_required
+  compensation_or_budget:
+    type: string
+  start_date:
+    type: string
+  duration:
+    type: string
+  weekly_capacity_hours:
+    type: string_or_number
+  work_authorization_required:
+    type: string
+  travel_percentage:
+    type: string_or_number
+  legal_terms:
+    type: map_or_link
+  evaluation_deadline:
+    type: string
+
+recommended_fields:
+  title:
+    type: string
+  seniority:
+    type: string
+  reporting_line:
+    type: string
+  decision_rights:
+    type: string
+  success_criteria:
+    type: list
+  office_location:
+    type: string
+  office_days_per_week:
+    type: string_or_number
+  timezone_expectations:
+    type: string
+  relocation_required:
+    type: boolean_or_string
+  payment_schedule:
+    type: string
+  benefits:
+    type: string
+  equity_or_upside:
+    type: string
+  expense_reimbursement:
+    type: string
+  exclusivity:
+    type: string
+  travel_notice:
+    type: string
+  travel_reimbursement:
+    type: string
+  on_call_expectations:
+    type: string
+  meeting_load:
+    type: string
+  schedule_flexibility:
+    type: string
+  citizenship_requirement:
+    type: string
+  visa_sponsorship:
+    type: string
+  clearance_requirement:
+    type: string
+  export_control:
+    type: string
+  jurisdiction_requirements:
+    type: list
+  domain:
+    type: string
+  industry:
+    type: string
+  product_or_service:
+    type: string
+  customer_type:
+    type: string
+  technical_stack:
+    type: list
+  required_skills:
+    type: list
+  expected_deliverables:
+    type: list
+  management_style:
+    type: string
+  documentation_practices:
+    type: string
+  tool_and_process_autonomy:
+    type: string
+  stakeholder_access:
+    type: string
+  ip_terms:
+    type: string
+  confidentiality_terms:
+    type: string
+  noncompete_or_nonsolicit:
+    type: string
+  liability_or_indemnity:
+    type: string
+  cancellation_terms:
+    type: string
+  governing_law:
+    type: string
+  public_reference_rights:
+    type: string
+  case_study_rights:
+    type: string
+  testimonial_reference_potential:
+    type: string
+  brand_or_network_value:
+    type: string
+  skill_compounding_value:
+    type: string
+  decision_process:
+    type: string
+
+validation:
+  missing_required_field_action: draft_clarification_request
+  scoring_rubric: evaluation-rubric.yaml
