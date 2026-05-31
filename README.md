@@ -106,6 +106,8 @@ This project applies that pattern to a different domain: a professional Career O
 ├── career-strategy/        # target roles, markets, positioning, search strategy
 ├── engagements/            # desired engagements and request instructions
 ├── resume-shaders/         # role/industry-specific resume shaping rules
+├── resumes/                # short/long variants, manifest, preserved originals
+├── styles/                 # presentation themes (navy default, density-aware)
 ├── submissions/            # LinkedIn, ATS, USAJOBS, Indeed, email adapters
 ├── prompts/                # paste-ready agent prompts
 ├── integrations/           # optional upstream/downstream repo contracts
@@ -125,26 +127,29 @@ The `examples/fictional-engineer/` folder is a disposable fixture. It exists to 
 
 ## 📄 Resume And Submission Outputs
 
-Engagement Stack is designed to generate:
+Two canonical resume **lengths**, both navy-themed, plus a matching cover letter and ATS-plain exports. `scripts/render-resumes.sh [short|long|cover-letter|ats|all]` produces:
 
-- one-page resume PDF
-- two-page resume PDF
-- ATS-friendly DOCX
-- ATS-friendly TXT
-- full CV PDF
-- USAJOBS/federal-style resume PDF
-- Markdown-native scoped resume source
-- LinkedIn profile text
-- generic ATS field packs
-- engagement request replies
+- **short resume PDF** — ~2 pages, tight density (the default submission resume)
+- **long resume PDF** — ~3 pages, roomy density
+- **ATS DOCX** — plain, derived from the short variant
+- **ATS TXT** — plain, derived from the short variant
+- **cover-letter PDF** — ~1 page, letter density, matching navy theme
 
-Pandoc is the default renderer. Users do not need to install Pandoc locally: GitHub Actions can render artifacts on demand.
+The designed PDFs are rendered Pandoc → HTML → [`styles/navy.css`](styles/navy.css) → headless Chrome (Chromium in CI); the ATS DOCX/TXT come straight from Pandoc (intentionally plain). Outputs land in `generated/resumes/` (gitignored). See [`resumes/`](resumes/) for the variants and [`manifest.yaml`](resumes/manifest.yaml) control surface.
+
+No local setup required: the **Render Resumes** GitHub Actions workflow installs Pandoc + Chromium and runs the script for full parity. (USAJOBS/federal-style output is a separate future concern, not yet implemented.)
+
+**Ground-truth first:** if you already have polished resumes, Engagement Stack uses them as-is — drop them in `resumes/short.md` / `resumes/long.md`, preserve originals verbatim in [`resumes/originals/`](resumes/originals/), and skip resume generation unless you ask to refine. Shaders still layer on top for role/industry specifics.
+
+Other submission materials — LinkedIn profile text, generic ATS field packs, and engagement-request replies — are generated from `submissions/` and `cv/`.
 
 ## 🎛️ Resume Shaders
 
 Most people keep a core resume and tailor it for a role, industry, or client. Engagement Stack makes that explicit.
 
-A **resume shader** is a small Markdown/YAML pair that tells an agent how to shape the canonical CV before emitting a scoped resume. It can prioritize certain projects, suppress irrelevant details, adjust language for a target industry, and choose output formats without changing the canonical CV.
+A **resume shader** is a small Markdown/YAML pair that tells an agent how to shape the canonical CV before emitting a scoped resume. It can prioritize certain projects, suppress irrelevant details, and adjust language for a target industry without changing the canonical CV.
+
+Shaders are the **content-emphasis** axis — *what to emphasize for a target*. They are orthogonal to **format** (*how long, how it looks*), which is handled by [`resumes/`](resumes/) + [`styles/`](styles/): the short (~2pg) and long (~3pg) variants and the navy theme. Supplied ground-truth resumes are used as-is, with shaders layered on top to emit tailored copies.
 
 Public-safe shaders can live in `resume-shaders/`. Sensitive or highly targeted shaded resumes can live in a private overlay or in `generated/`.
 

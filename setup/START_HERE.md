@@ -14,6 +14,20 @@ Use this guide when adopting Engagement Stack for yourself or helping someone po
 8. Run the completeness audit in [setup/completeness-audit.md](completeness-audit.md).
 9. Render resume artifacts with GitHub Actions or `scripts/render-resumes.sh`.
 
+## Do You Already Have Polished Resume(s)?
+
+This decides whether you import or generate. Either way, the output lands in [`resumes/`](../resumes/) as two variants — **short** (~2pg) and **long** (~3pg) — both rendered with the **navy** theme.
+
+- **YES — I have polished resume(s).** Use them as-is; Engagement Stack does not rewrite them.
+  1. Drop your originals into [`resumes/originals/`](../resumes/originals/) (preserved verbatim).
+  2. Place the short and long versions at `resumes/short.md` / `resumes/long.md`.
+  3. **Skip** resume generation — run it only if you explicitly want to refine.
+  4. Shaders still layer role/industry specifics on top without touching your originals.
+
+- **NO — I do not have a resume yet.** Generate one: populate `cv/`, pick or write a shader in [`resume-shaders/`](../resume-shaders/), and produce `resumes/short.md` / `resumes/long.md` from there.
+
+Then render with `scripts/render-resumes.sh` (or the **Render Resumes** GitHub Actions workflow). See [`resumes/README.md`](../resumes/README.md) for details.
+
 ## No Runtime Required
 
 The default setup requires only GitHub, Markdown, YAML, and an agent. Local scripts are optional conveniences.

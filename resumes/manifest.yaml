@@ -1,0 +1,37 @@
+schema: resume_variants/v1
+agent_surface: true
+visibility: public
+
+# Default visual theme for every variant. See styles/<theme>.css.
+default_theme: navy
+
+# The two canonical resume lengths. "short" and "long" are the supported variants.
+# If a polished resume is SUPPLIED (ground_truth: true), it is used as-is — the
+# renderer does not regenerate it. See resumes/README.md for the ground-truth flow.
+variants:
+  - name: short
+    source: resumes/short.md
+    theme: navy
+    density: tight
+    target_pages: 2
+    outputs: [pdf, docx, txt]
+    ground_truth: true
+
+  - name: long
+    source: resumes/long.md
+    theme: navy
+    density: roomy
+    target_pages: 3
+    outputs: [pdf]
+    ground_truth: true
+
+cover_letter:
+  source: submissions/cover-letter/cover-letter.md
+  theme: navy
+  density: letter
+  outputs: [pdf]
+
+# Render with:  scripts/render-resumes.sh [short|long|cover-letter|ats|all]
+#   designed PDFs -> Pandoc HTML + styles/navy.css via headless Chrome
+#   ATS docx/txt  -> Pandoc (intentionally plain, derived from the short variant)
+# Outputs land in generated/resumes/ (gitignored).

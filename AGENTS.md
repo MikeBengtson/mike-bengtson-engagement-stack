@@ -24,8 +24,9 @@ Treat this repository as the source of truth. Do not invent, exaggerate, or smoo
 4. `evidence/` for proof links and artifacts.
 5. `engagements/` for current preferences and request handling.
 6. `resume-shaders/` for role/industry-specific resume shaping instructions.
-7. `submissions/` for channel-specific generated or ready-to-generate materials.
-8. `generated/` for disposable outputs. Never treat generated files as canonical.
+7. `resumes/` for the rendered `short` (~2pg) and `long` (~3pg) variants. When polished resumes are supplied these are ground truth (`ground_truth: true` in `resumes/manifest.yaml`), preserved verbatim in `resumes/originals/`; otherwise they are generated from `cv/` plus a shader. Visual themes live in `styles/` (default: `navy`).
+8. `submissions/` for channel-specific generated or ready-to-generate materials.
+9. `generated/` for disposable outputs. Never treat generated files as canonical.
 
 ## Common Tasks
 
@@ -35,9 +36,20 @@ Use `prompts/populate-engagement-stack.md`. Interview the user, then write or up
 
 ### Tailor A Resume
 
-Read `cv/canonical-cv.md`, `cv/work-history.md`, `cv/skills.md`, relevant `portfolio/projects/*`, `resume-shaders/README.md`, and any selected shader. Generate tailored source under `submissions/generated/` or `generated/resumes/`. Do not change canonical facts unless the user confirms a correction.
+**Ground-truth first.** If the user supplies polished resumes, import them as-is — do **not** rewrite them. Preserve the supplied files verbatim in `resumes/originals/`, place the short and long versions at `resumes/short.md` and `resumes/long.md`, and mark them `ground_truth: true` in `resumes/manifest.yaml`. Skip resume *generation* (canonical-CV interview, draft writing) unless the user explicitly asks to refine. See `prompts/import-existing-resume.md` and `resumes/README.md`.
 
-If the user asks for specialization by role, industry, client, or job description, create or update a resume shader rather than editing the canonical CV.
+If no resume exists yet, generate one: read `cv/canonical-cv.md`, `cv/work-history.md`, `cv/skills.md`, relevant `portfolio/projects/*`, `resume-shaders/README.md`, and any selected shader, then produce `resumes/short.md` / `resumes/long.md`. Do not change canonical facts unless the user confirms a correction.
+
+Either way, when the user asks for specialization by role, industry, client, or job description, layer a resume shader **on top** — emitting tailored copies under `generated/` or `submissions/` — rather than editing the canonical CV or the preserved originals.
+
+### Render Resumes
+
+Render the Markdown variants into deliverables with `scripts/render-resumes.sh [short|long|cover-letter|ats|all]` (default: `all`):
+
+- **Designed PDFs** (`short`, `long`, `cover-letter`) go Pandoc → HTML → `styles/navy.css` → headless **Chrome/Chromium**. Density is set per variant via a body class (`density-tight` / `density-roomy` / `density-letter`); all variants use the **navy** theme.
+- **ATS** (`ats`) emits plain DOCX and TXT via **Pandoc** (no theme, intentionally unstyled), derived from the `short` variant.
+
+Outputs land in `generated/resumes/` (gitignored). The control surface is `resumes/manifest.yaml`; see `resumes/README.md`. If Chrome/Pandoc are not installed locally, run the **Render Resumes** GitHub Actions workflow (`.github/workflows/render-resumes.yml`), which installs Pandoc + Chromium and runs the script for no-setup rendering.
 
 ### Evaluate An Engagement Request
 

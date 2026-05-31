@@ -11,6 +11,9 @@
 - [ ] Confirm private overlays are not staged in git.
 - [ ] Fill contact and request instructions.
 - [ ] Review LinkedIn export material.
-- [ ] Render resume artifacts.
+- [ ] Decide: do you already have polished resume(s)?
+  - [ ] YES — import them as-is into `resumes/` (`short.md` ~2pg, `long.md` ~3pg) and preserve originals in `resumes/originals/`; skip resume generation.
+  - [ ] NO — generate `resumes/short.md` / `resumes/long.md` from `cv/` plus a shader in `resume-shaders/`.
+- [ ] Render resume artifacts (navy theme) via `scripts/render-resumes.sh` or the Render Resumes workflow.
 - [ ] Remove or keep `examples/` intentionally.
 - [ ] Keep or remove the framework link-back intentionally.
