@@ -1,0 +1,36 @@
+schema: portfolio_project/v1
+agent_surface: true
+canonical_markdown: README.md
+visibility: public
+
+name: Consumer Portfolio Capability (Fidelity)
+slug: consumer-portfolio-capability
+status: shipped
+role: led / Engineering Chapter Leader (VP, Full-Stack Engineering)
+dates: 2022–2024
+employer: Fidelity Investments
+evidence_level: led
+confidentiality: internal_nda
+links:
+  repository: null   # internal / NDA — no public repository
+  live: null         # embedded in Fidelity consumer experiences — not separately public
+  docs: null         # internal only
+tech:
+  - Java (Micronaut)
+  - Aurora Postgres
+  - AWS SQS
+  - AWS (autoscaling, multi-region, DR failover)
+claims_supported:
+  - Rescues and stabilizes stalled enterprise launches under deadline
+  - Scales production platforms from 0 to millions of users (0 → 7M+ in two years)
+  - Hands-on AWS platform engineering at scale (Micronaut, Aurora, SQS, multi-region, DR)
+  - Owns roadmap and long-term platform strategy as Chapter Leader
+  - Expands product scope across multiple data domains in production
+evidence_files:
+  - evidence.md
+  - claims.md
+  - case-study.md
+public_artifact: false
+caveats:
+  - Internal Fidelity work under NDA — no public repository, URL, or artifact.
+  - Metrics quoted (0 → 7M+ users in two years, stabilized within two months) are program-scope figures from the resume; no confidential internals included.

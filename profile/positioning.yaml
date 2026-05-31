@@ -3,9 +3,51 @@ agent_surface: true
 canonical_markdown: positioning.md
 visibility: public
 
-one_line: TODO
-target_roles: []
-target_clients: []
-best_fit_work: []
-not_a_fit: []
-keywords: []
+one_line: >-
+  AI engineering leader who scales platforms to millions of users and personally
+  ships the agentic-AI toolchains that make engineering organizations
+  dramatically faster.
+
+target_roles:
+  - VP of Engineering (AI / Platform)
+  - Director of Engineering (AI / Platform)
+  - Head of AI Engineering
+  - Head of Agentic / Developer Productivity
+  - Fractional / Advisory engineering leadership
+
+target_clients:
+  - Financial services and fintech
+  - AI and developer-tools companies
+  - AdTech and large SaaS platforms
+  - Enterprises operationalizing agentic / AI-assisted development
+
+best_fit_work:
+  - Operationalizing agentic / AI-assisted development across an organization
+  - Hands-on engineering leadership that pairs org-building with codebase time
+  - Standing up an agentic-development practice end to end (standards, tooling, RAG/MCP, evals, guardrails)
+  - Rescuing, stabilizing, and scaling production platforms toward large KPIs
+  - Cloud / platform modernization on AWS (microservices, event-driven, Kubernetes)
+  - Fractional or advisory engagements on AI engineering strategy and developer velocity
+
+not_a_fit:
+  - Pure people-manager / program-manager roles with no hands-on expectation
+  - IC-only roles with no leadership or team-scaling scope
+  - Organizations not interested in agentic / AI-assisted development
+  - Early-stage solo-builder roles with no team to lead (unless a founding-leader mandate)
+
+keywords:
+  - AI engineering leadership
+  - agentic development
+  - Claude Code
+  - Codex
+  - MCP
+  - RAG
+  - vector search
+  - developer productivity
+  - multi-squad leadership
+  - SDLC governance
+  - platform scale
+  - AWS
+  - Kubernetes
+  - fintech
+  - AdTech

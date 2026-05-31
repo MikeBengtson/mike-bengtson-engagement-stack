@@ -1,0 +1,53 @@
+schema: resume_shader/v1
+agent_surface: true
+canonical_markdown: ai-engineering-leader.md
+visibility: public
+
+name: AI Engineering Leader
+target:
+  role: VP / Director, AI Engineering Leadership
+  industry: financial services, AI / developer tools, large SaaS
+  seniority: executive
+  platform: general_ats
+emphasis:
+  skills:
+    - agentic development
+    - Claude Code
+    - Codex
+    - MCP servers
+    - RAG & vector search
+    - developer productivity
+    - multi-squad leadership
+    - platform scale
+  projects:
+    - gemba-core
+  domains:
+    - agentic / AI-assisted development
+    - platform modernization
+    - fintech
+  outcomes:
+    - 0 to 7M+ users
+    - "$175M AIDE program"
+    - ~6x cycle-time reduction
+    - doubled engineering capacity under deadline
+deemphasis:
+  domains:
+    - generic people-management with no hands-on signal
+    - early-career sales/quota detail
+language:
+  preferred_terms:
+    - agentic development
+    - developer productivity
+    - platform scale
+    - multi-squad leadership
+    - hands-on engineering leadership
+  avoid_terms:
+    - ninja
+    - rockstar
+    - guru
+  tone: pragmatic
+outputs:
+  scoped_resume_source: generated/resumes/ai-engineering-leader.md
+  pdf: generated/resumes/ai-engineering-leader.pdf
+  docx: generated/resumes/ai-engineering-leader.docx
+  txt: generated/resumes/ai-engineering-leader.txt

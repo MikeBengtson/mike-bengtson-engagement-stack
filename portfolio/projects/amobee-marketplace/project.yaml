@@ -1,0 +1,34 @@
+schema: portfolio_project/v1
+agent_surface: true
+canonical_markdown: README.md
+visibility: public
+
+name: Amobee Marketplace
+slug: amobee-marketplace
+status: shipped_commercial
+role: architect / lead (Technical Lead, Back-end Architecture)
+dates: 2021–2022
+employer: Amobee (a Singtel company)
+evidence_level: led
+confidentiality: proprietary_no_public_artifact
+links:
+  repository: null   # proprietary — source not public
+  live: null         # commercial product; not publicly accessible today
+  docs: null
+tech:
+  - GraphQL
+  - Java (AOP / annotation-driven services)
+  - React
+claims_supported:
+  - Conceives and ships industry-first product patterns
+  - Owns architecture and technology selection for commercial SaaS products
+  - Delivers on time and on budget with hybrid onshore/offshore teams
+evidence_files:
+  - evidence.md
+  - claims.md
+  - case-study.md
+public_artifact: false
+caveats:
+  - Real shipped commercial product (not an internal tool), but source and platform are proprietary — no public repository or live URL today.
+  - Amobee assets were acquired/wound down; the product is not publicly accessible.
+  - Claims rest on Mike's architect/lead role and the resume of record.

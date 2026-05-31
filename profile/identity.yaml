@@ -4,17 +4,20 @@ canonical_markdown: identity.md
 visibility: public
 
 name:
-  public: TODO
+  public: Mike Bengtson
   legal_private: null
 
 location:
-  public_location: TODO
-  timezone: TODO
-  relocation_open: null
+  public_location: Atlanta, GA
+  timezone: America/New_York
+  relocation_open: false
+  remote_open: true
+  hybrid_open: true
 
 contact:
-  preferred: TODO
-  email: TODO
-  linkedin: TODO
-  github: TODO
-  website: TODO
+  preferred: email
+  email: mike.bengtson@gmail.com
+  phone: 954-675-2641
+  linkedin: https://www.linkedin.com/in/mikebengtson
+  github: https://github.com/MikeBengtson
+  website: null

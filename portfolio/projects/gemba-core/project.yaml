@@ -1,0 +1,37 @@
+schema: portfolio_project/v1
+agent_surface: true
+canonical_markdown: README.md
+visibility: public
+
+name: gemba-core
+slug: gemba-core
+status: active
+role: creator / maintainer
+dates: 2024–present
+evidence_level: built
+links:
+  repository: https://github.com/GembaCore/gemba-core
+  live: https://gembacore.github.io/gemba-core/
+  docs: https://gembacore.github.io/gemba-core/
+tech:
+  - Go
+  - TypeScript
+  - React
+  - Vite
+  - SSE / OpenTelemetry
+  - Cobra CLI
+  - MCP (Model Context Protocol)
+  - Beads
+license: MIT
+claims_supported:
+  - Designs and ships production-grade agentic-development tooling end to end
+  - Builds vendor-agnostic, adaptor-based architectures (any tracker × any runtime)
+  - Full-stack: Go backend + embedded React/Vite SPA as a single binary
+  - Operationalizes massively parallel "headless" agentic software development
+  - Open-source engineering hygiene (CI, race tests, lint, goreleaser releases)
+evidence_files:
+  - evidence.md
+  - claims.md
+  - case-study.md
+caveats:
+  - Public OSS project; adoption/stars are modest (single-digit at time of writing) — evidence is the artifact and its engineering quality, not popularity metrics.

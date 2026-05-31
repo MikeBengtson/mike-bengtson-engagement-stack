@@ -4,11 +4,24 @@ canonical_markdown: operating-style.md
 visibility: public
 
 communication:
-  async_first: null
-  meeting_preference: TODO
-  documentation_preference: TODO
+  async_first: null            # TODO: confirm with Mike; distributed/offshore experience suggests comfort with async
+  meeting_preference: TODO     # not documented in resume
+  documentation_preference: TODO  # not documented in resume
+  distributed_team_experience: true   # led offshore/hybrid teams across time zones
 
 work_style:
-  strengths: []
-  constraints: []
-  collaboration_modes: []
+  strengths:
+    - Hands-on engineering leadership (ships with agentic tooling, not just directs)
+    - Setting engineering standards and SDLC / release governance
+    - Scaling and hiring teams under deadline
+    - Stabilizing then re-architecting platforms for scale
+    - Building reusable leverage (pipelines, frameworks) over one-offs
+    - Cross-org roadmap alignment across business, Product, and engineering
+  constraints:
+    - Best matched to mandates that keep the role both technical and leadership-scoped
+    - Wants an organization open to agentic / AI-assisted development
+  collaboration_modes:
+    - Hands-on pairing in the codebase via agentic tooling
+    - Multi-squad / chapter leadership
+    - Distributed and on/offshore team leadership
+    - Stakeholder alignment across business, Product, and engineering

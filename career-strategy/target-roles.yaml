@@ -3,4 +3,29 @@ agent_surface: true
 canonical_markdown: current-search.md
 visibility: public
 
-roles: []
+roles:
+  - title: VP of Engineering (AI / Platform)
+    seniority: VP
+    priority: primary
+    hands_on: true
+    notes: Lead engineering org while staying technical; operationalize agentic development.
+  - title: Director of Engineering (AI / Platform)
+    seniority: Director
+    priority: primary
+    hands_on: true
+    notes: Multi-squad / chapter leadership with standards-setting scope.
+  - title: Head of AI Engineering
+    seniority: VP / Director
+    priority: primary
+    hands_on: true
+    notes: Own the AI engineering function and toolchain strategy.
+  - title: Head of Agentic / Developer Productivity
+    seniority: VP / Director
+    priority: primary
+    hands_on: true
+    notes: Stand up agentic-development practice, standards, tooling, RAG/MCP, evals, guardrails.
+  - title: Fractional / Advisory engineering leadership
+    seniority: Advisory
+    priority: secondary
+    hands_on: conditional
+    notes: Advise leadership on AI engineering strategy, agentic adoption, developer velocity. Open to this.

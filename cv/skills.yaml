@@ -4,8 +4,43 @@ canonical_markdown: skills.md
 visibility: public
 
 skill_groups:
-  engineering: []
-  architecture: []
-  product_delivery: []
-  leadership: []
-  tools_platforms: []
+  ai_agentic_engineering:
+    - Claude Code
+    - Codex
+    - GitHub Copilot
+    - MCP servers
+    - RAG & vector search
+    - Agentic orchestration
+    - Spec-driven development
+    - Code-graph intelligence (GitNexus)
+    - Evals & guardrails
+    - Prompt / context engineering
+  engineering:
+    - Java (Spring Boot, Micronaut)
+    - TypeScript / Node.js
+    - Python
+    - React
+    - GraphQL & REST
+    - SQL & NoSQL
+  architecture:
+    - AWS (Lambda, Aurora/RDS, DynamoDB, SQS, S3, KMS, Route 53)
+    - Microservices
+    - Kubernetes, Rancher, ArgoCD
+    - Event-driven architecture
+    - CI/CD
+  product_delivery:
+    - SDLC & release governance
+    - Cross-org roadmap alignment
+    - Revenue & P&L ownership
+  leadership:
+    - Multi-squad & chapter leadership
+    - Hiring and scaling teams
+    - Cross-org roadmap alignment
+  tools_platforms:
+    - Vercel
+    - Railway
+    - Supabase
+    - Pinecone
+    - Resend
+    - AssemblyAI
+    - Lovable

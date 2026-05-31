@@ -3,13 +3,129 @@ agent_surface: true
 canonical_markdown: profile-export.md
 visibility: public
 
-headline: TODO
-about: TODO
+headline: >-
+  AI Engineering Leader | Agentic AI & Developer Productivity | VP / Director |
+  Scaling Platforms to Millions & the Toolchains That Build Them | Creator of
+  gemba-core
+
+about: >-
+  AI engineering leader with two decades building production platforms — now
+  personally architecting the agentic-AI toolchains that make engineering
+  organizations dramatically faster. Equally at home leading multi-squad
+  organizations against nine-figure KPIs and pairing with engineers in the
+  codebase through Claude Code, Codex, MCP servers, and RAG — having scaled
+  platforms from zero to millions of users, doubled engineering capacity under
+  deadline, and shipped agentic development that cut some delivery cycles from
+  three months to a two-week sprint. At Fidelity, led Brokerage's agentic-AI
+  transformation — the enterprise's agentic-development practice and the $175M
+  AIDE servicing platform — after first rescuing a stalled data platform and
+  scaling it from 0 to 7M+ users. Creator and maintainer of gemba-core, an
+  open-source framework for parallel agentic development.
+
 open_to_work:
-  roles: []
-  locations: []
-  remote_preference: TODO
-featured: []
-experience: []
-skills: []
-projects: []
+  roles:
+    - VP of Engineering (AI / Platform)
+    - Director of Engineering (AI / Platform)
+    - Head of AI Engineering
+    - Head of Agentic / Developer Productivity
+    - Fractional / Advisory engineering leadership
+  locations:
+    - Atlanta, GA
+    - Remote (US)
+  remote_preference: open to hybrid or remote; full-time in-office less preferred
+
+featured:
+  - label: gemba-core (open-source parallel agentic development framework)
+    url: https://github.com/GembaCore/gemba-core
+  - label: GitHub
+    url: https://github.com/MikeBengtson
+
+experience:
+  - company: Fidelity Investments
+    title: VP, Engineering Leader — Brokerage AI Innovation Lead & AIDE Program · Multi-Squad Chapter Leader
+    start: "2024"
+    end: "2026"
+    location: Atlanta, GA (Remote/Hybrid)
+    highlights:
+      - Led Brokerage's agentic-AI transformation (AI Innovation workstream) while running engineering for AIDE, an AI single-pane-of-glass consolidating 14+ servicing tools for 8,900 associates, targeting $175M in average-handle-time savings over five years.
+      - Built a reusable, skill-based code-generation pipeline that cut delivery for some feature classes from ~3 months to a two-week sprint — up to a ~6x reduction in cycle time.
+      - Architected and open-sourced gemba-core, a vendor-agnostic framework for work-tracking and session orchestration across massively parallel agentic coding flows.
+      - Stood up an enterprise RAG + MCP knowledge layer that vectorized thousands of Confluence pages and Swagger/API contracts for agentic pipelines.
+      - Set the brokerage's agentic-development standard (Claude Code, Codex, SpecKit, GitNexus, local MCP servers) plus SDLC governance and AI-first practices that scaled it across squads.
+      - Drove the AIDE delivery org from 14 to 31 engineers in six months and shipped trading, Wire/ACH transfer, multi-holding liquidation, and call-notes optimization.
+  - company: Fidelity Investments
+    title: VP, Full-Stack Engineering — Consumer Portfolio Capability · Chapter Leader
+    start: "2022"
+    end: "2024"
+    location: Atlanta, GA (Remote/Hybrid)
+    highlights:
+      - Took a stalled enterprise data-aggregation platform from 0 to 7M+ users in two years, stabilizing the launch within two months of onboarding.
+      - Re-architected for scale - autoscaling, multi-region balancing, rapid DR failover, SQS throughput tuning, and Aurora Postgres resizing.
+      - Owned roadmap and long-term platform strategy as Chapter Leader, aligning business stakeholders, Product, and engineering.
+      - Expanded the product from consumer-spending aggregation to student-loan data, real-time credit-card spend eventing, and external investment-portfolio tracking with live pricing.
+  - company: Amobee (a Singtel company)
+    title: Technical Lead — Back-end Architecture (Social Channels prior)
+    start: "2016"
+    end: "2022"
+    location: ""
+    highlights:
+      - Architected and led delivery of Amobee Marketplace, an industry-first Amazon-style storefront for ad inventory (GraphQL, AOP/annotation-driven services, React) - shipped on time and on budget with a hybrid on/offshore team.
+      - Designed Social 2.0, a unified Java microservices platform consolidating the Facebook, Twitter, Snapchat, and Pinterest ad APIs; personally built multi-identity OAuth, entity-grouping, and front-end orchestration services.
+      - Piloted a serverless offering (long-lived AWS Lambda + DynamoDB) blending live API calls with in-house data and analytics.
+      - Led the founding Snapchat-channel tiger team and migrated the org off Vagrant/Bash/Fabric to a Kubernetes DevOps toolchain; ran an 8-person offshore dev/test team.
+  - company: ACI Worldwide
+    title: Director, Service Delivery Management (Senior Solution Architect prior)
+    start: "2010"
+    end: "2016"
+    location: ""
+    highlights:
+      - Led an 18-person global team accountable for $300M in SaaS revenue, moving the business from on-prem licensing to subscription SaaS and integrating three acquisitions at 80%+ retention.
+      - As Senior Solution Architect, designed PCI-compliant card-tokenization loyalty for a global beverage leader, tablet-based payments for the world's largest QSR, SMS real-time fraud alerts, and the industry's first PayPal-to-ATM transfers.
+  - company: S1 Corporation
+    title: Regional VP, Canada & Caribbean
+    start: "2006"
+    end: "2010"
+    location: ""
+    highlights:
+      - Grew territory revenue from $800K to $3M+ in year one, delivered double quota the next, and landed the first EFT-processor account in Canada.
+  - company: Mosaic Software
+    title: VP, Channel Management & Product Strategy (Development Manager prior)
+    start: "1996"
+    end: "2006"
+    location: ""
+    highlights:
+      - Built reseller channels (first multimillion-dollar reseller EFT sale), shaped a portfolio of self-service and internet-payment products, and authored portions of the ISO 20022 ATM media-management standard.
+
+skills:
+  - AI engineering leadership
+  - Agentic development
+  - Claude Code
+  - Codex
+  - GitHub Copilot
+  - MCP servers
+  - RAG & vector search
+  - Prompt / context engineering
+  - Evals & guardrails
+  - Spec-driven development
+  - Code-graph intelligence (GitNexus)
+  - Multi-squad & chapter leadership
+  - Hiring & scaling engineering teams
+  - SDLC & release governance
+  - Cross-org roadmap alignment
+  - AWS
+  - Microservices architecture
+  - Kubernetes
+  - Event-driven architecture
+  - CI/CD
+  - Java (Spring Boot, Micronaut)
+  - TypeScript / Node.js
+  - Python
+  - React
+  - GraphQL & REST
+  - SQL & NoSQL
+
+projects:
+  - name: gemba-core
+    role: Creator & maintainer
+    url: https://github.com/GembaCore/gemba-core
+    description: Open-source, vendor-agnostic framework for work-tracking and session orchestration across massively parallel agentic coding flows.

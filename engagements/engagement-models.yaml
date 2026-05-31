@@ -3,9 +3,68 @@ agent_surface: true
 canonical_markdown: engagement-models.md
 visibility: public
 
+# Public-safe only. Compensation terms live in private/compensation.private.yaml.
+# Mike is open to all four real-world models; they map onto the standard
+# taxonomy keys below.
+
 models:
-  full_time: {}
-  hourly_contract: {}
-  fixed_bid: {}
-  advisory_fractional: {}
-  assignment_consignment_outcome: {}
+  full_time:
+    maps_to: full_time_fte
+    open: true
+    good_fit: >-
+      VP / Director of Engineering with a mandate to operationalize agentic /
+      AI-assisted development across the org, paired with hands-on time in the
+      codebase; org-building plus standards, tooling, RAG/MCP, evals, guardrails.
+    weak_fit: >-
+      Pure people-/program-management seat with no hands-on expectation, or
+      "AI" as a label on legacy work with no real adoption mandate.
+
+  hourly_contract:
+    maps_to: contract_consulting_time_based
+    open: true
+    good_fit: >-
+      Scoped, time-based consulting bringing senior AI-engineering leverage:
+      standing up an agentic practice, RAG + MCP knowledge layer, agentic SDLC
+      and guardrails, or stabilize-and-scale under deadline. Clear SOW, defined
+      outcomes, decision rights over tooling and process.
+    weak_fit: >-
+      Open-ended staff augmentation, no clear outcome, low autonomy, or
+      low-agency maintenance that does not build on his strengths.
+    compensation: see private overlay (private/compensation.private.yaml)
+
+  fixed_bid:
+    maps_to: contract_consulting_scoped_build
+    open: true
+    good_fit: >-
+      Well-defined build/transformation with concrete deliverable and acceptance
+      criteria: agentic code-gen pipeline, MCP/RAG knowledge layer, prototype-to-
+      production AI feature, or a targeted platform-modernization slice.
+    weak_fit: >-
+      Fuzzy or shifting scope, no acceptance criteria, or a deliverable
+      dependent on factors outside his control.
+    compensation: see private overlay (private/compensation.private.yaml)
+
+  advisory_fractional:
+    maps_to:
+      - fractional_part_time_leadership
+      - advisory_board
+    open: true
+    good_fit: >-
+      Fractional head-of-engineering / AI-engineering leader with a clear
+      charter, real decision rights, and manageable meeting load; or advisory /
+      board role advising leadership on AI engineering strategy, agentic
+      adoption, and developer-velocity transformation (narrow scope, low
+      predictable meeting load).
+    weak_fit: >-
+      Open-ended "advisor" title with unbounded asks, heavy meeting load, or no
+      real influence on decisions.
+    weekly_capacity: requires_clarification
+    compensation: see private overlay (private/compensation.private.yaml)
+
+  assignment_consignment_outcome:
+    maps_to: null
+    open: requires_clarification
+    note: >-
+      No posture specified on assignment-/consignment-/pure outcome-based work.
+      Route outcome-based proposals through fixed_bid or contract framings and
+      confirm terms before scoring; do not assume yes or no.

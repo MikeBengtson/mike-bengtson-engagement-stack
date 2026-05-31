@@ -1,0 +1,32 @@
+schema: portfolio_project/v1
+agent_surface: true
+canonical_markdown: README.md
+visibility: public
+
+name: AIDE (Fidelity Brokerage)
+slug: aide
+status: shipped
+role: led engineering (VP / Multi-Squad Chapter Leader)
+dates: 2024–2026
+employer: Fidelity Investments
+evidence_level: led
+confidentiality: internal_nda
+links:
+  repository: null   # internal / NDA — no public repository
+  live: null         # internal associate platform — not publicly accessible
+  docs: null         # internal only
+claims_supported:
+  - Leads multi-squad engineering orgs against nine-figure KPIs ($175M AHT target)
+  - Consolidates complex servicing surfaces into a single platform (14+ tools, dozens of back-end systems)
+  - Scales delivery orgs rapidly under deadline (14 → 31 engineers in six months)
+  - Operationalizes agentic development to compress delivery cycles (up to ~6×)
+  - Stands up enterprise RAG + MCP knowledge layers and cross-squad SDLC governance
+evidence_files:
+  - evidence.md
+  - claims.md
+  - case-study.md
+public_artifact: false
+caveats:
+  - Internal Fidelity work under NDA — no public repository, URL, or artifact.
+  - Metrics quoted ($175M AHT target, 8,900 associates, 14→31 engineers, 14+ tools) are program-scope figures as stated on the resume; no confidential internals are included.
+  - Publicly demonstrable companion: open-source gemba-core (see portfolio/projects/gemba-core/).

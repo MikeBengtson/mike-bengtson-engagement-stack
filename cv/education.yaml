@@ -3,7 +3,25 @@ agent_surface: true
 canonical_markdown: education.md
 visibility: public
 
-education: []
+education:
+  - institution: "Northern Illinois University"
+    field_of_study: "Computer Science"
+    credential: "Coursework"
+    completed: false
+    degree_conferred: false
+    note: "Computer Science coursework; degree not completed. Do not represent as a completed degree."
+
 certifications: []
-publications: []
+
+publications:
+  - title: "ISO 20022 — ATM media-management standard"
+    role: "Author (ATM media-management portion)"
+    type: "industry_standard"
+
 talks: []
+
+open_source:
+  - name: "gemba-core"
+    role: "Creator & maintainer"
+    description: "Open-source framework for parallel agentic development."
+    url: "https://github.com/GembaCore/gemba-core"

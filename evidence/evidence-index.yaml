@@ -3,8 +3,122 @@ agent_surface: true
 canonical_markdown: README.md
 visibility: public
 
-repositories: []
-live_products: []
-artifacts: []
-references: []
-metrics: []
+# Public, verifiable artifacts come first. Internal employer work is recorded
+# honestly with public_artifact: false and no link.
+
+repositories:
+  - name: gemba-core
+    url: https://github.com/GembaCore/gemba-core
+    org: GembaCore
+    role: creator / maintainer
+    license: MIT
+    languages: [Go, TypeScript, React]
+    description: Agent orchestration dashboard — Kanban UI for any work tracker × any agent runtime.
+    supports_projects: [gemba-core, aide]
+    public: true
+  - name: MikeBengtson (GitHub profile)
+    url: https://github.com/MikeBengtson
+    role: account owner
+    description: Mike's GitHub profile; gemba-core is pinned.
+    public: true
+
+live_products:
+  - name: gemba-core docs / project site
+    url: https://gembacore.github.io/gemba-core/
+    role: creator / maintainer
+    supports_projects: [gemba-core]
+    public: true
+
+# Public repos owned by Mike (MikeBengtson + GembaCore org) with >=1 commit in the
+# 30 days ending 2026-05-31. Forks with no original commits in the window are
+# excluded. Stats measured by cloning full history on measured_on; `lines` is
+# code-only (cloc .SUM.code). See recent-repos.md for the human-readable table.
+recent_public_repos:
+  - name: gemba-core
+    url: https://github.com/GembaCore/gemba-core
+    description: Kanban-like planning, execution, and management of complex vibe-coding projects in a single pane of glass — organize, review, and dispatch large parallel batches of work over any tracker × any agent runtime, with built-in coaching and drift detection.
+    language: Go
+    lines: 268777
+    line_count_method: "cloc .SUM.code (code-only; raw git ls-files wc -l = 405889)"
+    commits_total: 837
+    commits_last_30d: 199
+    measured_on: "2026-05-31"
+  - name: engagement-stack
+    url: https://github.com/MikeBengtson/engagement-stack
+    description: A human-first, agent-readable Career OS — a source-controlled professional dossier for CV, work history, portfolio evidence, engagement preferences, structured offer requests, evaluation rubrics, and job-search submission materials.
+    language: Shell
+    lines: 3318
+    line_count_method: "cloc .SUM.code (code-only; raw git ls-files wc -l = 5282)"
+    commits_total: 6
+    commits_last_30d: 6
+    measured_on: "2026-05-31"
+  - name: job-search-superpower
+    url: https://github.com/MikeBengtson/job-search-superpower
+    description: An evidence-grounded prompt for the job search you actually want to run — strategy, resume, LinkedIn, portfolio, cover letter, and action plan, usable in any LLM or as a Claude skill.
+    language: Shell
+    lines: 570
+    line_count_method: "cloc .SUM.code (code-only; raw git ls-files wc -l = 967)"
+    commits_total: 8
+    commits_last_30d: 8
+    measured_on: "2026-05-31"
+  - name: gemba-prime
+    url: https://github.com/MikeBengtson/gemba-prime
+    description: A browser-based, Atlassian-style UI for multi-agent orchestration that renders any Work Coordination Plane (Beads, Jira, Linear, GitHub Projects, …) over any Agent Orchestration Plane (Gas Town, LangGraph, CrewAI, …) without UI changes.
+    language: HTML
+    lines: 8404
+    line_count_method: "cloc .SUM.code (code-only; raw git ls-files wc -l = 10713)"
+    commits_total: 33
+    commits_last_30d: 1
+    measured_on: "2026-05-31"
+
+artifacts:
+  - name: gemba-core CI workflow
+    path: github.com/GembaCore/gemba-core/.github/workflows/ci.yml
+    role: maintainer
+    note: Public CI (GitHub Actions) — go test -race, lint, frontend tests, goreleaser.
+    public: true
+
+references:
+  - name: Resume (long, ground truth)
+    path: resumes/long.md
+    note: Source of record for all internal/NDA project claims.
+  - name: Resume (short, ground truth)
+    path: resumes/short.md
+
+# Internal / proprietary work — no public artifact. Listed for completeness so
+# agents do not invent links for these.
+internal_no_public_artifact:
+  - project: aide
+    employer: Fidelity Investments
+    confidentiality: internal_nda
+    reason: Proprietary brokerage servicing platform; no public repo or URL.
+    public_companion: https://github.com/GembaCore/gemba-core
+  - project: consumer-portfolio-capability
+    employer: Fidelity Investments
+    confidentiality: internal_nda
+    reason: Proprietary data-aggregation platform; no public repo or URL.
+  - project: amobee-marketplace
+    employer: Amobee (a Singtel company)
+    confidentiality: proprietary_no_public_artifact
+    reason: Commercial product; source proprietary, assets acquired/wound down — not public today.
+  - project: social-2-0
+    employer: Amobee (a Singtel company)
+    confidentiality: proprietary_no_public_artifact
+    reason: Commercial product; source proprietary, assets acquired/wound down — not public today.
+
+metrics:
+  # Metrics below are program-scope statements from the resume of record, not
+  # independently published figures. Flagged so they are never cited as verified.
+  - claim: "$175M AHT savings target over five years (AIDE)"
+    source: resumes/long.md
+    verification: self_reported_resume
+  - claim: "0 → 7M+ users in two years (Consumer Portfolio Capability)"
+    source: resumes/long.md
+    verification: self_reported_resume
+  - claim: "AIDE engineering org scaled 14 → 31 engineers in six months"
+    source: resumes/long.md
+    verification: self_reported_resume
+  - claim: "Up to ~6× reduction in delivery cycle time via skill-based code-gen pipeline"
+    source: resumes/long.md
+    verification: self_reported_resume
+    public_companion: https://github.com/GembaCore/gemba-core

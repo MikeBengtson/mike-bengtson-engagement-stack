@@ -1,0 +1,37 @@
+schema: portfolio_project/v1
+agent_surface: true
+canonical_markdown: README.md
+visibility: public
+
+name: Social 2.0
+slug: social-2-0
+status: shipped_commercial
+role: designer / lead (Social Channels)
+dates: 2016–2021
+employer: Amobee (a Singtel company)
+evidence_level: built
+confidentiality: proprietary_no_public_artifact
+links:
+  repository: null   # proprietary — source not public
+  live: null         # commercial platform; not publicly accessible today
+  docs: null
+tech:
+  - Java (Spring Boot)
+  - PostgreSQL
+  - Microservices
+  - OAuth (multi-identity)
+  - Kubernetes
+claims_supported:
+  - Designs unifying microservices platforms across disparate third-party APIs
+  - Hands-on builder of hard cross-cutting services (multi-identity OAuth, entity-grouping, orchestration)
+  - Leads founding "tiger teams" delivering production microservices
+  - Drives DevOps modernization (Vagrant/Bash/Fabric → Kubernetes)
+evidence_files:
+  - evidence.md
+  - claims.md
+  - case-study.md
+public_artifact: false
+caveats:
+  - Real shipped commercial product (not an internal tool), but source and platform are proprietary — no public repository or live URL today.
+  - Amobee assets were acquired/wound down; the platform is not publicly accessible.
+  - Claims rest on Mike's designer/lead role and the resume of record.

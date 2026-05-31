@@ -3,4 +3,178 @@ agent_surface: true
 canonical_markdown: work-history.md
 visibility: public
 
-roles: []
+roles:
+  - role: "VP, Engineering Leader — Brokerage AI Innovation Lead & AIDE Program"
+    organization: "Fidelity Investments"
+    dates:
+      start: "2024"
+      end: "2026-05"
+      label: "2024 – May 2026"
+    location: "Atlanta, GA (Hybrid)"
+    engagement_type: "fte"
+    scope: >-
+      Multi-squad Chapter Leader. Led Fidelity Brokerage's agentic-AI
+      transformation — operationalizing agentic development across the org (the
+      "AI Innovation" workstream) while running engineering for AIDE, an AI
+      "single pane of glass" consolidating 14+ servicing tools and dozens of
+      back-end systems for 8,900 call-center associates, targeting $175M in
+      average-handle-time savings over five years.
+    responsibilities:
+      - "Operationalized agentic development across the brokerage org as the AI Innovation workstream lead."
+      - "Ran engineering for AIDE, consolidating 14+ servicing tools and dozens of back-end systems into a single associate-facing pane of glass."
+      - "Established cross-squad SDLC governance for integration testing, release management, and AI-assisted review."
+      - "Hired, onboarded, and trained across internal, external, associate, and contingent staffing channels."
+    outcomes:
+      - "Built a reusable, skill-based code-generation pipeline that cut delivery for some feature classes from ~3 months to a single two-week sprint — up to a ~6x reduction in cycle time."
+      - "Architected and open-sourced gemba-core, a vendor-agnostic framework for work-tracking and session orchestration across massively parallel agentic coding flows."
+      - "Stood up an enterprise RAG + MCP knowledge layer that vectorized thousands of Confluence pages and Swagger/API contracts."
+      - "Established the brokerage's agentic-development standard — Claude Code, Codex, SpecKit, GitNexus code graphs, and local MCP servers (Playwright driver)."
+      - "Drove AI-first delivery practices — automated test generation, SDK migrations, SonarQube remediation, UI-prototype-to-code — and introduced Beads as a parallel-workstream data plane for the mainframe-modernization program."
+      - "Scaled the AIDE engineering org from 14 to 31 engineers in six months."
+      - "Shipped AIDE's highest-impact servicing capabilities — Wire/ACH transfer, stock and funds trading, multi-holding trading and liquidation, and call-notes optimization — advancing the program's $175M AHT-savings target."
+    metrics:
+      - "$175M AHT-savings target over five years"
+      - "14 to 31 engineers in six months"
+      - "up to ~6x cycle-time reduction"
+      - "8,900 call-center associates served"
+    evidence:
+      - type: "open_source"
+        label: "gemba-core"
+        url: "https://github.com/GembaCore/gemba-core"
+      - type: "requires_clarification"
+        label: "$175M AHT-savings target and 14->31 headcount growth (self-reported; no external artifact captured)"
+
+  - role: "VP, Full-Stack Engineering — Consumer Portfolio Capability · Chapter Leader"
+    organization: "Fidelity Investments"
+    dates:
+      start: "2022-04"
+      end: "2024"
+      label: "Apr 2022 – 2024"
+    location: "Atlanta, GA (Hybrid)"
+    engagement_type: "fte"
+    scope: >-
+      Chapter Leader. Hired to finish and stabilize a stalled enterprise
+      data-aggregation platform — powering Planning & Guidance, real-time
+      financial eventing, and bulk insights — then promoted to Chapter Leader
+      for its long-term ownership.
+    responsibilities:
+      - "Diagnosed the performance and stability issues blocking production use of a stalled enterprise data-aggregation platform."
+      - "Reviewed the AWS architecture (Micronaut Java, Aurora Postgres, SQS event bus) and drove autoscaling, multi-region balancing, DB resizing, and rapid DR-failover tuning."
+      - "Owned roadmap and long-term strategy across business stakeholders, Product, and engineering on a system live in production."
+    outcomes:
+      - "Stabilized the system within two months of onboarding."
+      - "Took the platform from 0 to 7M+ users in two years as Engineering Chapter Leader."
+      - "Expanded the product from consumer-spending aggregation to student-loan data, real-time credit-card spend eventing, and external investment-portfolio tracking with live pricing."
+    metrics:
+      - "0 to 7M+ users in two years"
+      - "stabilized within two months of onboarding"
+    evidence:
+      - type: "requires_clarification"
+        label: "0->7M+ users and two-month stabilization (self-reported; no external artifact captured)"
+
+  - role: "Technical Lead — Back-end Architecture & Social Channels"
+    organization: "Amobee (a Singtel company)"
+    dates:
+      start: "2016-07"
+      end: "2022-03"
+      label: "Jul 2016 – Mar 2022"
+    location: "TODO"
+    engagement_type: "fte"
+    scope: >-
+      Technical Lead, Back-end Architecture (2021–2022); Technical Lead, Social
+      Channels (2016–2021). SaaS AdTech platform unifying mobile, social,
+      video, and display advertising across consolidated planning, back-end
+      tools, and analytics.
+    responsibilities:
+      - "Owned architecture and stack selection for Amobee Marketplace (GraphQL, AOP/annotation-driven services, React)."
+      - "Designed Social 2.0, a unified Java microservices platform consolidating the Facebook, Twitter, Snapchat, and Pinterest advertising APIs with internal data and state."
+      - "Personally built the multi-identity OAuth, ad-hoc entity-grouping, and front-end orchestration services."
+      - "Set long-term maintenance strategy for the Facebook offering and remotely led an 8-person offshore dev/test team."
+    outcomes:
+      - "Delivered Amobee Marketplace — an industry-first 'Amazon-style' storefront for advertising inventory — on time and on budget with a hybrid on/offshore team."
+      - "Piloted a serverless offering (long-lived AWS Lambda backed by DynamoDB) blending live API calls with in-house data and analytics, proving patterns reused across later products."
+      - "Led the founding Snapchat-channel 'tiger team' (Java/Spring Boot/PostgreSQL microservices) and replaced the Vagrant/Bash/Fabric toolchain with a Kubernetes DevOps solution that cut configuration overhead and deployment errors."
+      - "Built the tooling, training, and procedures that made offshore delivery reliable."
+    metrics:
+      - "8-person offshore dev/test team led remotely"
+    evidence:
+      - type: "todo"
+        label: "No public artifacts captured (requires_clarification)."
+
+  - role: "Director, Service Delivery Management & Senior Solution Architect"
+    organization: "ACI Worldwide"
+    dates:
+      start: "2010"
+      end: "2016"
+      label: "2010 – 2016"
+    location: "TODO"
+    engagement_type: "fte"
+    scope: >-
+      Director, Service Delivery Management (2013–2016); Senior Solution
+      Architect (2010–2013).
+    responsibilities:
+      - "Led an 18-person global team accountable for $300M in SaaS revenue, owning service design, delivery, and customer experience."
+      - "Drove the business transition from on-prem licensing to subscription SaaS."
+      - "As Senior Solution Architect, designed payment and loyalty solutions for global enterprise clients."
+    outcomes:
+      - "Integrated the service-delivery models of three acquisitions with minimal customer attrition."
+      - "Built a legacy-migration program that held 80%+ overall retention — near-total among top-tier accounts."
+      - "Designed PCI-compliant card-tokenization loyalty for a global beverage leader, the industry's first tablet-based payment for a global QSR, an SMS real-time fraud-alert program, and the industry's first PayPal-to-ATM transfers."
+    metrics:
+      - "18-person global team"
+      - "$300M in SaaS revenue"
+      - "80%+ overall retention across three acquisitions"
+    evidence:
+      - type: "todo"
+        label: "No public artifacts captured (requires_clarification)."
+
+  - role: "Regional VP, Canada & Caribbean"
+    organization: "S1 Corporation"
+    dates:
+      start: "2006"
+      end: "2010"
+      label: "2006 – 2010"
+    location: "TODO"
+    engagement_type: "fte"
+    scope: "Regional VP for the Canada & Caribbean territory."
+    responsibilities:
+      - "Owned territory revenue, sales, and account growth across Canada and the Caribbean."
+    outcomes:
+      - "Grew territory revenue from $800K to $3M+ in year one."
+      - "Delivered double quota the next year."
+      - "Secured the first EFT-processor account in Canada."
+      - "Expanded the footprint at Canada's largest retail brand."
+    metrics:
+      - "$800K to $3M+ territory revenue in year one"
+      - "double quota in year two"
+    evidence:
+      - type: "todo"
+        label: "No public artifacts captured (requires_clarification)."
+
+  - role: "VP, Channel Management & Product Strategy / Development Manager"
+    organization: "Mosaic Software"
+    dates:
+      start: "1996"
+      end: "2006"
+      label: "1996 – 2006"
+    location: "TODO"
+    engagement_type: "fte"
+    scope: >-
+      VP, Channel Management & Product Strategy (2000–2006); Development
+      Manager (1996–2000).
+    responsibilities:
+      - "Built the reseller channel and product strategy for self-service and internet-payment products."
+      - "Earlier, led North American EFT engineering."
+    outcomes:
+      - "Closed the first multimillion-dollar reseller EFT sale."
+      - "Shipped a portfolio of self-service and internet-payment products, including a next-generation web kiosk."
+      - "Authored the ATM media-management portion of ISO 20022."
+      - "Built an industry-first event-driven Java SDK for EFT processing."
+    metrics:
+      - "first multimillion-dollar reseller EFT sale"
+      - "authored ATM media-management portion of ISO 20022"
+    evidence:
+      - type: "standard"
+        label: "ISO 20022 ATM media-management standard (published industry standard)."
+      - type: "todo"
+        label: "Other items: no public artifacts captured (requires_clarification)."

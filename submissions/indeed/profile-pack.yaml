@@ -3,9 +3,69 @@ agent_surface: true
 canonical_markdown: profile-pack.md
 visibility: public
 
-summary: TODO
-skills: []
+summary: >-
+  AI engineering leader with two decades building production platforms — now
+  personally architecting the agentic-AI toolchains that make engineering teams
+  dramatically faster. Equally at home leading multi-squad organizations against
+  nine-figure KPIs and pairing with engineers in the codebase via Claude Code,
+  Codex, MCP, and RAG. Scaled platforms from zero to millions of users, doubled
+  engineering capacity under deadline, and shipped agentic development that cut
+  some delivery cycles from three months to a two-week sprint. Creator and
+  maintainer of gemba-core, an open-source framework for parallel agentic
+  development.
+
+target_roles:
+  - VP of Engineering (AI / Platform)
+  - Director of Engineering (AI / Platform)
+  - Head of AI Engineering
+  - Head of Agentic / Developer Productivity
+  - Fractional / Advisory engineering leadership
+
+skills:
+  - AI engineering leadership
+  - Agentic development
+  - Claude Code
+  - Codex
+  - GitHub Copilot
+  - MCP servers
+  - RAG & vector search
+  - Prompt / context engineering
+  - Evals & guardrails
+  - Spec-driven development
+  - Code-graph intelligence (GitNexus)
+  - Multi-squad & chapter leadership
+  - Hiring & scaling engineering teams
+  - SDLC & release governance
+  - AWS
+  - Microservices
+  - Kubernetes
+  - Event-driven architecture
+  - CI/CD
+  - Java (Spring Boot, Micronaut)
+  - TypeScript / Node.js
+  - Python
+  - React
+  - GraphQL & REST
+  - SQL & NoSQL
+
 resume_artifacts:
   ats_docx: generated/resumes/resume-ats.docx
   ats_txt: generated/resumes/resume-ats.txt
-common_answers: []
+
+common_answers:
+  - question: Desired title
+    answer: VP / Director, AI Engineering Leadership
+  - question: Years of experience
+    answer: 25 plus
+  - question: Remote preference
+    answer: Open to hybrid or remote; full-time in-office less preferred
+  - question: Location
+    answer: Atlanta, GA
+  - question: Relocation
+    answer: TODO (requires clarification)
+  - question: Authorized to work in the US
+    answer: TODO (confirm before submitting)
+  - question: Sponsorship required
+    answer: TODO (confirm before submitting)
+  - question: Earliest start date
+    answer: TODO

@@ -3,32 +3,66 @@ agent_surface: true
 canonical_markdown: current-preferences.md
 visibility: public
 
+# Public-safe only. No salary, rate, or numeric thresholds here.
+# Compensation floors/targets/premiums live in private/compensation.private.yaml.
+
 availability:
-  status: TODO
+  status: requires_clarification        # start date / notice period not on record
   starts_after: null
-  weekly_capacity_hours: null
+  weekly_capacity_hours: null            # fractional/advisory capacity: requires_clarification
 
 location:
+  base: Atlanta, GA
+  timezone: America/New_York             # US Eastern (ET)
+  relocation:
+    acceptable: requires_clarification
   remote:
-    acceptable: null
+    acceptable: true
     score_placeholder: 100
-  hybrid_local:
-    acceptable: null
+  hybrid_local:                          # local to Atlanta
+    acceptable: conditional
     score_placeholder: 70
   full_time_in_office:
-    acceptable: null
+    acceptable: less_preferred           # not a hard no; weighted lower
     score_placeholder: 20
 
+# Mike is open to all four named engagement models below.
+# The five keys retained from the schema map onto those models for the scorer.
 engagement_types:
-  full_time:
-    acceptable: null
-  hourly_contract:
-    acceptable: null
-  fixed_bid:
-    acceptable: null
-  advisory_fractional:
-    acceptable: null
+  full_time:                             # FTE
+    acceptable: true
+  hourly_contract:                       # contract / consulting (time-based)
+    acceptable: true
+  fixed_bid:                             # contract / consulting (scoped/outcome build)
+    acceptable: true
+  advisory_fractional:                   # fractional leadership + advisory / board
+    acceptable: true
   assignment_consignment_outcome:
-    acceptable: null
+    acceptable: requires_clarification
 
-dealbreakers: []
+# Human-facing model grouping (see engagement-models.md for details).
+engagement_models_open:
+  - full_time
+  - fractional_part_time_leadership
+  - contract_consulting
+  - advisory_board
+
+offer_evaluation_priorities:
+  - id: scope_and_impact
+    public: true
+    note: Meaningful surface area and outcomes that matter.
+  - id: ai_agentic_mandate
+    public: true
+    note: Genuine organizational intent to adopt and scale agentic / AI-assisted development.
+  - id: team_and_technical_quality
+    public: true
+    note: Strong engineers, sound stack, willingness to raise the engineering bar.
+  - id: autonomy_and_operating_model
+    public: true
+    note: Decision rights, tool/process freedom, async-friendly, low bureaucracy.
+  - id: compensation_and_economics
+    public: false
+    note: see private overlay (private/compensation.private.yaml)
+
+dealbreakers: []                         # none on record; sensitive ones live in private/constraints.private.yaml
+dealbreakers_status: requires_clarification

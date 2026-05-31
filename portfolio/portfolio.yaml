@@ -3,6 +3,58 @@ agent_surface: true
 canonical_markdown: README.md
 visibility: public
 
-featured_projects: []
-project_order: []
-domains: []
+featured_projects:
+  - slug: gemba-core
+    name: gemba-core
+    role: creator / maintainer
+    evidence_level: built
+    public_artifact: true
+    path: projects/gemba-core/
+  - slug: aide
+    name: AIDE (Fidelity Brokerage)
+    role: led engineering
+    evidence_level: led
+    public_artifact: false
+    confidentiality: internal_nda
+    path: projects/aide/
+  - slug: consumer-portfolio-capability
+    name: Consumer Portfolio Capability (Fidelity)
+    role: led / Chapter Leader
+    evidence_level: led
+    public_artifact: false
+    confidentiality: internal_nda
+    path: projects/consumer-portfolio-capability/
+  - slug: amobee-marketplace
+    name: Amobee Marketplace
+    role: architect / lead
+    evidence_level: led
+    public_artifact: false
+    confidentiality: proprietary_no_public_artifact
+    path: projects/amobee-marketplace/
+  - slug: social-2-0
+    name: Social 2.0
+    role: designer / lead
+    evidence_level: built
+    public_artifact: false
+    confidentiality: proprietary_no_public_artifact
+    path: projects/social-2-0/
+
+# Ordered strongest-evidence-first: the one public, hands-on artifact leads.
+project_order:
+  - gemba-core
+  - aide
+  - consumer-portfolio-capability
+  - amobee-marketplace
+  - social-2-0
+
+domains:
+  - agentic / AI-assisted development tooling
+  - enterprise platform engineering at scale
+  - financial-services data aggregation
+  - AdTech SaaS (social, programmatic)
+  - cloud / microservices / DevOps modernization
+
+notes:
+  - Only gemba-core has a public repository and live URL.
+  - All employer projects (Fidelity, Amobee) are proprietary or NDA — documented honestly with no public artifact.
+  - gemba-core is the public companion proof for the agentic-development claims in AIDE.

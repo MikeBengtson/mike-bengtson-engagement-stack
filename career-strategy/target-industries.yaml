@@ -3,4 +3,16 @@ agent_surface: true
 canonical_markdown: current-search.md
 visibility: public
 
-industries: []
+industries:
+  - name: Financial services / fintech
+    priority: primary
+    rationale: Four years at Fidelity Brokerage; ACI Worldwide, S1, Mosaic — deep payments/EFT and brokerage domain.
+  - name: AI and developer tools
+    priority: primary
+    rationale: Built agentic-development practice and tooling; created open-source gemba-core; hands-on with Claude Code, Codex, MCP, RAG.
+  - name: AdTech
+    priority: secondary
+    rationale: Six years at Amobee (Singtel) architecting social/marketplace AdTech platforms.
+  - name: Enterprise SaaS / platform
+    priority: secondary
+    rationale: Repeated track record scaling production SaaS platforms and leading SaaS revenue/delivery orgs.

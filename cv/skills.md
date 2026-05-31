@@ -1,23 +1,49 @@
 # Skills
 
-Group skills by practical application, not only by keywords.
+Grouped by practical application. Canonical facts only — drawn from the Core Competencies in the source resumes.
+
+## AI & Agentic Engineering
+
+- Claude Code
+- Codex
+- GitHub Copilot
+- MCP servers
+- RAG & vector search
+- Agentic orchestration
+- Spec-driven development
+- Code-graph intelligence (GitNexus)
+- Evals & guardrails
+- Prompt / context engineering
 
 ## Engineering
 
-- TODO
+- Java (Spring Boot, Micronaut)
+- TypeScript / Node.js
+- Python
+- React
+- GraphQL & REST
+- SQL & NoSQL
 
 ## Architecture
 
-- TODO
+- AWS (Lambda, Aurora/RDS, DynamoDB, SQS, S3, KMS, Route 53)
+- Microservices
+- Kubernetes, Rancher, ArgoCD
+- Event-driven architecture
+- CI/CD
 
 ## Product / Delivery
 
-- TODO
+- SDLC & release governance
+- Cross-org roadmap alignment
+- Revenue & P&L ownership
 
 ## Leadership / Collaboration
 
-- TODO
+- Multi-squad & chapter leadership
+- Hiring and scaling teams
+- Cross-org roadmap alignment
 
 ## Tools And Platforms
 
-- TODO
+- AI deployment stack: Vercel, Railway, Supabase, Pinecone, Resend, AssemblyAI, Lovable
