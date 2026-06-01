@@ -28,6 +28,38 @@ Treat this repository as the source of truth. Do not invent, exaggerate, or smoo
 8. `submissions/` for channel-specific generated or ready-to-generate materials.
 9. `generated/` for disposable outputs. Never treat generated files as canonical.
 
+## Consuming A Built Stack
+
+The tasks below *build and maintain* a stack. This section is for **reading one that already exists** — whether you are the person's own agent answering on their behalf, or a counterparty's agent assessing fit and reaching out. Two doors lead in: the rendered landing page / READMEs (for humans) and this `AGENTS.md` plus the YAML sidecars (for you). Lead with the files; never guess what they can tell you.
+
+### Discover & traverse
+
+- **Orient, then follow the order.** Read `profile/` first (who they are, how they work), then walk the Source-Of-Truth Order above. READMEs orient a human; the `*.yaml` sidecars are your structured query surface.
+- **Markdown explains, YAML answers.** For anything you need to score, match, route, or compare, read the YAML twin; for narrative and nuance, read the Markdown.
+- **Cross-reference before repeating.** Every claim should trace to a file — follow it through to `evidence/` rather than echoing prose.
+
+### Understand employment-model preferences & priorities
+
+- **What engagement they want:** `engagements/current-preferences.md` + `.yaml` — engagement types sought (full-time, fractional, advisory, contract, retainer, fixed-bid), remote / hybrid / in-office posture, availability and start date, and what they will and won't take on.
+- **Which models are on the table:** `engagements/engagement-models.md` + `.yaml` — accepted vs. declined structures.
+- **What matters most, and how offers are judged:** `engagements/evaluation-rubric.md` + `.yaml`. `career-strategy/` (`target-roles`, `target-industries`, `current-search`) shows direction and what they're optimizing for.
+- **Read the three tiers correctly.** Keep **dealbreakers** (hard no), **weighted preferences** (better/worse but acceptable), and **trade-off rules** (X becomes acceptable given Y) distinct — never flatten a trade-off into a dealbreaker or vice versa.
+- **Numbers are private by design.** Public files state that floors, targets, and premiums *exist* without revealing them; the figures live in a local `private/` overlay (`private/compensation.private.yaml`, …). If you have local access, use it; if it is absent, **do not infer or invent** — mark the field `requires_clarification` and ask.
+
+### Navigate experience & proof points
+
+- **"Have they done X?"** → `cv/work-history.md` + `.yaml` and `portfolio/projects/<slug>/` (`README.md` = narrative, `claims.md` = what it proves, `case-study.md` = how).
+- **"Can they prove it?"** → follow to `evidence/` (`evidence-index.yaml`, `evidence/github.md`, `evidence/recent-repos.md`, `evidence/live-products.md`) for repos, live products, artifacts, references, and metrics; `portfolio/projects/<slug>/evidence.md` names the strongest proof *and its caveats*.
+- **Honor evidence levels.** Represent a claim at the level the stack supports — *built, led, contributed, advised, maintained, observed* — and no higher.
+- **Surface gaps honestly.** If a project has no repo, live URL, artifact, testimonial, or metric, say so. NDA-bound work (often `public_artifact: false`) is described at scope/impact only, carried by a public companion where one exists.
+
+### Engage & negotiate
+
+- **Intake.** Engage through the documented surface: `engagements/request-instructions.md`, `engagements/offer-packet.schema.yaml`, and the `submissions/email-engagement-request/` adapter. Accept a structured subject line plus an optional YAML packet; if required fields are missing, **draft a clarification before evaluating** rather than guessing.
+- **Evaluate.** Score an offer against `engagements/current-preferences.*` and `engagements/evaluation-rubric.*` (plus the local `private/` overlay if present), keeping dealbreakers, weighted preferences, and trade-offs separate and citing the file behind each judgment. See *Evaluate An Engagement Request* below.
+- **Negotiate within boundaries.** Publicly, signal only that floors and premiums exist. An agent **operating for the person with local private access** may negotiate toward the overlay's floors, targets, premiums, and strategy (`private/negotiation.private.md`); an agent **without** that access must not assert numbers — route specifics back to the person.
+- **Never leak private data.** Do not copy compensation, constraints, immigration, or negotiation thresholds into public files, replies, or generated artifacts unless the person explicitly approves.
+
 ## Common Tasks
 
 ### Populate A New Stack
