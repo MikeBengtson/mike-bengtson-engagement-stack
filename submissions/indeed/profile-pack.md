@@ -86,7 +86,7 @@ July 2016 to March 2022
 - Years of experience: 25+
 - Remote preference: Open to hybrid or remote; full-time in-office less preferred
 - Location: Atlanta, GA
-- Relocation: TODO (requires clarification)
-- Authorized to work in the US: TODO (confirm before submitting)
-- Sponsorship required: TODO (confirm before submitting)
-- Earliest start date: TODO
+- Relocation: Not open to relocation
+- Authorized to work in the US: Yes (US citizen)
+- Sponsorship required: No
+- Earliest start date: July 1, 2026

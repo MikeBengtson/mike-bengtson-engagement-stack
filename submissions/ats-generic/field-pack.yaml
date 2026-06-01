@@ -14,8 +14,8 @@ contact:
   github: github.com/MikeBengtson
 
 work_authorization:
-  public_answer: TODO (confirm before submitting; not on record in source of truth)
-  sponsorship_required: TODO
+  public_answer: Authorized to work in the United States (US citizen)
+  sponsorship_required: "No"
 
 summary: >-
   AI engineering leader with two decades building production platforms and now
@@ -145,10 +145,10 @@ common_answers:
   - question: Remote preference
     answer: Open to hybrid or remote; full-time in-office less preferred
   - question: Relocation
-    answer: TODO (requires clarification)
+    answer: Not open to relocation
   - question: Authorized to work in the US
-    answer: TODO (confirm before submitting)
+    answer: "Yes (US citizen)"
   - question: Sponsorship required
-    answer: TODO (confirm before submitting)
+    answer: "No"
   - question: Earliest start date
-    answer: TODO
+    answer: July 1, 2026

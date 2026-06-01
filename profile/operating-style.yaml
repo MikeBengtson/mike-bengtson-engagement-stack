@@ -4,9 +4,9 @@ canonical_markdown: operating-style.md
 visibility: public
 
 communication:
-  async_first: null            # TODO: confirm with Mike; distributed/offshore experience suggests comfort with async
-  meeting_preference: TODO     # not documented in resume
-  documentation_preference: TODO  # not documented in resume
+  async_first: true
+  meeting_preference: "Video conferencing for synchronous work; async-first by default."
+  documentation_preference: "Human-readable, agent-engageable artifacts in shared repositories."
   distributed_team_experience: true   # led offshore/hybrid teams across time zones
 
 work_style:

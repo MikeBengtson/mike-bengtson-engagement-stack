@@ -30,17 +30,17 @@ A weak version has fuzzy or shifting scope, no acceptance criteria, or a deliver
 
 ## Advisory / Fractional
 
-Maps to: **fractional / part-time leadership** and **advisory / board** — *both open.*
+Maps to: **fractional / part-time leadership** and **advisory / board** — *both open, and both preferred.*
 
 This covers two distinct but related shapes:
 
 - **Fractional / part-time leadership.** Acting as a fractional head of engineering or AI-engineering leader for an organization that needs senior leverage without a full-time hire — owning the agentic-adoption roadmap, raising the engineering bar, mentoring leads, and setting standards on a defined weekly cadence. A good version has a clear charter, real decision rights, and a manageable meeting load.
 - **Advisory / board.** Advising founders and leadership on AI engineering strategy, agentic adoption, developer-velocity transformation, and platform scaling — as a technical advisor, board member, or expert. A good version is narrow in scope with a low, predictable meeting load and clear expectations.
 
-Weekly capacity for fractional and advisory work is `requires_clarification`. A weak version is an open-ended "advisor" title with unbounded asks, a heavy meeting load, or no real influence on decisions.
+Weekly capacity for fractional and advisory work is **8–16 hours/week**. A weak version is an open-ended "advisor" title with unbounded asks, a heavy meeting load, or no real influence on decisions.
 
 ## Assignment / Consignment / Outcome-Based
 
-Maps to: no specific named preference yet — *requires_clarification.*
+Maps to: **not offered.**
 
-Mike has not specified a posture on assignment-, consignment-, or pure outcome-/success-fee-based engagements. Treat as `requires_clarification` rather than assuming yes or no. The closest established preferences are fixed-bid (for scoped outcome builds) and contract / consulting; route outcome-based proposals through those framings and confirm terms before scoring.
+Mike does not take assignment-, consignment-, or pure outcome-/success-fee-based engagements. He works under salary, hourly, retainer, and fixed-bid structures only. Route any scoped-outcome build through fixed-bid (or contract / consulting) on an accepted comp structure, or decline — do not accept success-fee or consignment terms.

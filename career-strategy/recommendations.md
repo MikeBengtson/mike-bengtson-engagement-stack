@@ -23,6 +23,7 @@ Recommendations are not canonical facts. They should not be copied into the CV w
 
 ## Search Logistics
 
-- TODO: confirm search status, timeline, and whether fractional/advisory is being actively pursued in parallel with full-time.
-- TODO: networking targets and warm-intro list.
+- Status: actively looking; available to start July 1, 2026.
+- Track: fractional / advisory is the preferred (primary) track, pursued in parallel with full-time roles, which he will also consider.
+- Channels: his LinkedIn network plus a recruiter (no specific target-company list).
 - Compensation strategy and floors: see private overlay (keep out of public files).

@@ -6,7 +6,7 @@
 
 ## Certifications
 
-- TODO (none captured; requires_clarification)
+- No professional certifications.
 
 ## Publications / Talks / Writing
 

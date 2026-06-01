@@ -4,6 +4,27 @@ canonical_markdown: evaluation-rubric.md
 visibility: public
 status: scaffold
 
+# Three co-equal top priorities that gate fit, above the weighted categories below.
+top_priorities:
+  - id: true_agentic_pipeline
+    priority: top
+    public: true
+    note: Working on a true agentic pipeline.
+  - id: org_wide_ai_impact
+    priority: top
+    public: true
+    note: The chance for organization-wide impact with AI efforts.
+  - id: income_to_expectations
+    priority: top
+    public: false
+    note: Income/revenue in keeping with his expectations; figures live in the private overlay (private/compensation.private.yaml).
+
+# Automatic-no conditions surfaced from current-preferences.
+hard_dealbreakers:
+  - mandatory_or_full_in_office
+  - any_relocation
+  - travel_above_10_percent
+
 scoring:
   max_score: 100
   default_missing_required_field_action: request_clarification
@@ -66,11 +87,12 @@ categories:
         score: 65
         tradeoff_required: clear_scope_and_payment_schedule
       advisory_fractional:
-        status: acceptable
-        score: 80
+        status: preferred
+        score: 90
       assignment_consignment_outcome:
-        status: requires_clarification
-        score: 50
+        status: not_acceptable
+        score: 0
+        note: Not offered; salary/hourly/retainer/fixed-bid only.
 
   compensation_and_economics:
     weight: 18
@@ -122,15 +144,17 @@ categories:
         score: 45
         tradeoff_required: travel_or_relocation_premium
       full_time_in_office:
-        status: acceptable_with_tradeoff
-        score: 20
-        tradeoff_required: compensation_mission_or_career_leverage_premium
+        status: not_acceptable
+        score: 0
+        note: Dealbreaker — mandatory/full in-office is an automatic no.
       relocation:
-        status: requires_clarification
-        score: 25
+        status: not_acceptable
+        score: 0
+        note: Dealbreaker — any relocation is an automatic no.
 
   travel_and_schedule:
     weight: 8
+    travel_cap_percent: 10               # travel above 10% is a hard dealbreaker
     required_offer_fields:
       - travel_percentage
       - travel_notice
@@ -139,16 +163,16 @@ categories:
       - meeting_load
       - schedule_flexibility
     options:
-      no_or_low_travel:
+      no_or_low_travel:                  # <= 10% travel
         status: preferred
         score: 100
-      planned_reimbursed_travel:
+      planned_reimbursed_travel:         # acceptable only if <= 10% travel
         status: acceptable
         score: 75
-      frequent_or_short_notice_travel:
-        status: acceptable_with_tradeoff
-        score: 35
-        tradeoff_required: travel_premium_and_explicit_limits
+      travel_above_10_percent:
+        status: not_acceptable
+        score: 0
+        note: Dealbreaker — travel above 10% is an automatic no.
 
   work_authorization_and_compliance:
     weight: 10

@@ -20,8 +20,8 @@ VP / Director, AI Engineering Leadership
 
 ## Work Authorization
 
-- Authorized to work in the United States: TODO (confirm before submitting; not on record in source of truth)
-- Sponsorship required: TODO (confirm before submitting)
+- Authorized to work in the United States: Yes (US citizen)
+- Sponsorship required: No
 
 ## Resume Summary
 
@@ -109,7 +109,7 @@ AI engineering leadership, Agentic development, Claude Code, Codex, GitHub Copil
 - Desired title: VP / Director, AI Engineering Leadership
 - Years of experience: 25 plus
 - Remote preference: Open to hybrid or remote; full-time in-office less preferred
-- Relocation: TODO (requires clarification)
-- Authorized to work in the US: TODO (confirm before submitting)
-- Sponsorship required: TODO (confirm before submitting)
-- Earliest start date: TODO
+- Relocation: Not open to relocation
+- Authorized to work in the US: Yes (US citizen)
+- Sponsorship required: No
+- Earliest start date: July 1, 2026

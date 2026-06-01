@@ -5,7 +5,6 @@ Roles in reverse chronological order. All engagements are full-time employment (
 ## VP, Engineering Leader — Brokerage AI Innovation Lead & AIDE Program, Fidelity Investments
 
 - Dates: 2024 – May 2026
-- Location: Atlanta, GA (Hybrid)
 - Engagement type: Full-time employee (FTE)
 - Scope: Multi-squad Chapter Leader. Led Fidelity Brokerage's agentic-AI transformation — operationalizing agentic development across the org (the "AI Innovation" workstream) while running engineering for AIDE, an AI "single pane of glass" consolidating 14+ servicing tools and dozens of back-end systems for 8,900 call-center associates, targeting $175M in average-handle-time savings over five years.
 
@@ -34,7 +33,6 @@ Roles in reverse chronological order. All engagements are full-time employment (
 ## VP, Full-Stack Engineering — Consumer Portfolio Capability · Chapter Leader, Fidelity Investments
 
 - Dates: Apr 2022 – 2024
-- Location: Atlanta, GA (Hybrid)
 - Engagement type: Full-time employee (FTE)
 - Scope: Chapter Leader. Hired to finish and stabilize a stalled enterprise data-aggregation platform — powering Planning & Guidance, real-time financial eventing, and bulk insights — then promoted to Chapter Leader for its long-term ownership.
 
@@ -57,7 +55,6 @@ Roles in reverse chronological order. All engagements are full-time employment (
 ## Technical Lead — Back-end Architecture & Social Channels, Amobee (a Singtel company)
 
 - Dates: Jul 2016 – Mar 2022
-- Location: TODO (requires_clarification)
 - Engagement type: Full-time employee (FTE)
 - Scope: Technical Lead, Back-end Architecture (2021–2022); Technical Lead, Social Channels (2016–2021). SaaS AdTech platform unifying mobile, social, video, and display advertising across consolidated planning, back-end tools, and analytics.
 
@@ -82,7 +79,6 @@ Roles in reverse chronological order. All engagements are full-time employment (
 ## Director, Service Delivery Management & Senior Solution Architect, ACI Worldwide
 
 - Dates: 2010 – 2016
-- Location: TODO (requires_clarification)
 - Engagement type: Full-time employee (FTE)
 - Scope: Director, Service Delivery Management (2013–2016); Senior Solution Architect (2010–2013).
 
@@ -105,7 +101,6 @@ Roles in reverse chronological order. All engagements are full-time employment (
 ## Regional VP, Canada & Caribbean, S1 Corporation
 
 - Dates: 2006 – 2010
-- Location: TODO (requires_clarification)
 - Engagement type: Full-time employee (FTE)
 - Scope: Regional VP for the Canada & Caribbean territory.
 
@@ -127,7 +122,6 @@ Roles in reverse chronological order. All engagements are full-time employment (
 ## VP, Channel Management & Product Strategy / Development Manager, Mosaic Software
 
 - Dates: 1996 – 2006
-- Location: TODO (requires_clarification)
 - Engagement type: Full-time employee (FTE)
 - Scope: VP, Channel Management & Product Strategy (2000–2006); Development Manager (1996–2000).
 

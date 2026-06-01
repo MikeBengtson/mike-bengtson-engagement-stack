@@ -14,10 +14,15 @@ location:
   remote_open: true
   hybrid_open: true
 
+work_authorization:
+  status: US citizen
+  authorized_us: true
+  sponsorship_required: false
+
 contact:
   preferred: email
   email: mike.bengtson@gmail.com
   phone: 954-675-2641
   linkedin: https://www.linkedin.com/in/mikebengtson
   github: https://github.com/MikeBengtson
-  website: null
+  website: https://mikebengtson.github.io/mike-bengtson-engagement-stack/   # pending Pages publish

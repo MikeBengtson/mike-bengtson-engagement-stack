@@ -49,6 +49,7 @@ models:
       - fractional_part_time_leadership
       - advisory_board
     open: true
+    preferred: true                      # fractional / advisory are the preferred shapes
     good_fit: >-
       Fractional head-of-engineering / AI-engineering leader with a clear
       charter, real decision rights, and manageable meeting load; or advisory /
@@ -58,13 +59,14 @@ models:
     weak_fit: >-
       Open-ended "advisor" title with unbounded asks, heavy meeting load, or no
       real influence on decisions.
-    weekly_capacity: requires_clarification
+    weekly_capacity: "8-16"              # hours/week for fractional / advisory work
     compensation: see private overlay (private/compensation.private.yaml)
 
   assignment_consignment_outcome:
     maps_to: null
-    open: requires_clarification
+    open: false                          # not offered
     note: >-
-      No posture specified on assignment-/consignment-/pure outcome-based work.
-      Route outcome-based proposals through fixed_bid or contract framings and
-      confirm terms before scoring; do not assume yes or no.
+      Not offered. Mike sticks to salary, hourly, retainer, and fixed-bid
+      structures and does not take assignment-, consignment-, or pure
+      outcome-/success-fee-based work. Route any such proposal through fixed_bid
+      or contract framings on accepted comp structures, or decline.

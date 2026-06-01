@@ -15,7 +15,9 @@ Describe how this person works, communicates, makes decisions, and collaborates.
 
 ## Communication Preferences
 
-- Operates across business stakeholders, Product, and engineering — cross-org roadmap alignment is a core part of the role. *(inferred from scope; specific cadence/channel preferences: TODO — confirm with Mike)*
+- Async-first by default: relies on async team tools for day-to-day coordination, and uses video conferencing when synchronous discussion is needed.
+- Documents in human-readable, agent-engageable artifacts kept in shared repositories — so both teammates and AI agents can pick up context directly.
+- Operates across business stakeholders, Product, and engineering — cross-org roadmap alignment is a core part of the role.
 - Has led distributed and offshore teams (8-person offshore dev/test team; hybrid on/offshore delivery), so async and written coordination across time zones is a demonstrated mode.
 
 ## Decision-Making Style

@@ -7,24 +7,24 @@ visibility: public
 # Compensation floors/targets/premiums live in private/compensation.private.yaml.
 
 availability:
-  status: requires_clarification        # start date / notice period not on record
-  starts_after: null
-  weekly_capacity_hours: null            # fractional/advisory capacity: requires_clarification
+  status: available                      # earliest start / availability confirmed
+  starts_after: "2026-07-01"             # earliest start / availability: July 1, 2026
+  weekly_capacity_hours: "8-16"          # fractional/advisory weekly capacity
 
 location:
   base: Atlanta, GA
   timezone: America/New_York             # US Eastern (ET)
   relocation:
-    acceptable: requires_clarification
+    acceptable: false                    # dealbreaker — any relocation is an automatic no
   remote:
-    acceptable: true
+    acceptable: true                     # preferred
     score_placeholder: 100
   hybrid_local:                          # local to Atlanta
-    acceptable: conditional
+    acceptable: conditional              # only if local to Atlanta and not full/mandatory in-office
     score_placeholder: 70
   full_time_in_office:
-    acceptable: less_preferred           # not a hard no; weighted lower
-    score_placeholder: 20
+    acceptable: false                    # dealbreaker — mandatory/full in-office is an automatic no
+    score_placeholder: 0
 
 # Mike is open to all four named engagement models below.
 # The five keys retained from the schema map onto those models for the scorer.
@@ -37,32 +37,46 @@ engagement_types:
     acceptable: true
   advisory_fractional:                   # fractional leadership + advisory / board
     acceptable: true
+    preferred: true                      # fractional / advisory are preferred shapes
   assignment_consignment_outcome:
-    acceptable: requires_clarification
+    acceptable: false                    # not offered; sticks to salary/hourly/retainer/fixed-bid
 
 # Human-facing model grouping (see engagement-models.md for details).
+# Fractional / part-time leadership and advisory / board are the preferred shapes.
 engagement_models_open:
   - full_time
-  - fractional_part_time_leadership
+  - fractional_part_time_leadership      # preferred
   - contract_consulting
-  - advisory_board
+  - advisory_board                       # preferred
 
+# Compensation structures Mike will work under. Figures live in the private overlay.
+comp_structures:
+  accepted:                              # salary / hourly / retainer / fixed-bid
+    - salary
+    - hourly
+    - retainer
+    - fixed_bid
+  not_accepted:                          # outcome/success-fee and assignment/consignment-based
+    - outcome_success_fee
+    - assignment_consignment
+
+# The three priorities below are all top priority (co-equal).
 offer_evaluation_priorities:
-  - id: scope_and_impact
+  - id: true_agentic_pipeline
+    priority: top
     public: true
-    note: Meaningful surface area and outcomes that matter.
-  - id: ai_agentic_mandate
+    note: Working on a true agentic pipeline.
+  - id: org_wide_ai_impact
+    priority: top
     public: true
-    note: Genuine organizational intent to adopt and scale agentic / AI-assisted development.
-  - id: team_and_technical_quality
-    public: true
-    note: Strong engineers, sound stack, willingness to raise the engineering bar.
-  - id: autonomy_and_operating_model
-    public: true
-    note: Decision rights, tool/process freedom, async-friendly, low bureaucracy.
-  - id: compensation_and_economics
+    note: The chance for organization-wide impact with AI efforts.
+  - id: income_to_expectations
+    priority: top
     public: false
-    note: see private overlay (private/compensation.private.yaml)
+    note: Income/revenue in keeping with his expectations; figures live in the private overlay (private/compensation.private.yaml).
 
-dealbreakers: []                         # none on record; sensitive ones live in private/constraints.private.yaml
-dealbreakers_status: requires_clarification
+dealbreakers:                            # automatic no; sensitive ones live in private/constraints.private.yaml
+  - mandatory or full in-office
+  - any relocation
+  - travel above 10%
+dealbreakers_status: on_record

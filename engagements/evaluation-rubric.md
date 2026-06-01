@@ -16,6 +16,22 @@ This rubric clarifies:
 
 The rubric should not be treated as a rigid vending machine. It is a decision aid. Strong offers can still require conversation, and weak offers can still reveal useful opportunities.
 
+## Top Priorities
+
+Three co-equal top priorities sit above the weighted categories below. They gate fit before scoring nuances:
+
+1. **A true agentic pipeline** — working on a genuine agentic pipeline, not AI as a label on legacy work.
+2. **Organization-wide AI impact** — the chance for organization-wide impact with AI efforts.
+3. **Income to expectations** — income/revenue in keeping with his expectations. Figures are not stated here; they live in the private overlay (`private/compensation.private.yaml`).
+
+## Hard Dealbreakers
+
+Any one of these is an automatic no, regardless of category scores:
+
+- mandatory or full in-office;
+- any relocation;
+- travel above 10%.
+
 ## Priority Categories
 
 ### Engagement Model

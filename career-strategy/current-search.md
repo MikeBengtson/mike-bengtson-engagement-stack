@@ -2,14 +2,18 @@
 
 ## Search Status
 
-TODO — confirm with Mike (active / passive / open-to-conversations) and target timeline. Fidelity tenure runs through May 2026 per resume.
+Actively looking. Available to start July 1, 2026.
+
+Track preference: fractional / advisory engineering leadership is the preferred (primary) track, pursued in parallel with full-time roles, which he will also consider.
+
+Search channels: his LinkedIn network plus a recruiter.
 
 ## Target Roles
 
-- VP of Engineering (AI / Platform) — primary
-- Director of Engineering (AI / Platform) — primary
-- Head of AI Engineering / Head of Agentic / Developer Productivity — primary
-- Fractional or advisory engineering leadership — open to it (secondary)
+- Fractional or advisory engineering leadership — preferred (primary)
+- VP of Engineering (AI / Platform) — full-time, considered in parallel
+- Director of Engineering (AI / Platform) — full-time, considered in parallel
+- Head of AI Engineering / Head of Agentic / Developer Productivity — full-time, considered in parallel
 
 Common thread: hands-on engineering leadership with a mandate to operationalize agentic / AI-assisted development. See `target-roles.yaml`.
 
