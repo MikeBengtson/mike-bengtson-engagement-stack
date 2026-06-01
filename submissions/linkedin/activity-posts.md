@@ -121,7 +121,9 @@ A few things that held up under that pressure:
 
 ## LinkedIn Article
 
-> Adapted from `engagement-stack/docs/feature-article-v2.md` into a LinkedIn-native long-form article. Paste into LinkedIn's article editor (Write article). Title ≤150 chars works best for the headline field. Attribution to Dan Shipper (Every) and Kieran Klassen is preserved exactly.
+> ✅ **Published:** https://www.linkedin.com/pulse/have-your-agent-call-mine-why-career-needs-surface-mike-bengtson-z6gqe
+
+> Adapted from `engagement-stack/docs/feature-article-v2.md` into a LinkedIn-native long-form article. Title ≤150 chars works best for the headline field. Attribution to Dan Shipper (Every) and Kieran Klassen is preserved exactly.
 
 **Title:** Have Your Agent Call Mine: Why Your Career Needs an Agent Surface
 

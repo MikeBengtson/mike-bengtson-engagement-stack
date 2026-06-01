@@ -47,13 +47,13 @@ the résumé site rather than a Featured link.
 - **URL:** https://github.com/MikeBengtson/gemba-prime
 - **Why this is here:** Shows range and a second take on the orchestration problem — a browser-native UI complement to gemba-core, reinforcing depth in the agentic-tooling space.
 
-## 5. "Engagement Stack" article (LinkedIn Article)
+## 5. "Have Your Agent Call Mine" article (LinkedIn Article)
 
-- **Type:** LinkedIn Article (publish natively, then it appears under Featured) — or Link once published
-- **Title:** Engagement Stack: A Human-First Career OS With an Agent in the Sidecar
+- **Type:** LinkedIn Article — **published** (appears natively under Featured)
+- **Title:** Have Your Agent Call Mine: Why Your Career Needs an Agent Surface
 - **Description:** A take on the human-first, agent-readable career operating system — a source-controlled professional dossier built so both people and agents can read it. Engages Dan Shipper's "allocation economy" and the emerging agent surface.
-- **URL:** _Publish as a native LinkedIn Article; paste the resulting article URL here once live._
-- **Why this is here:** Thought leadership that signals the "builder + leader who thinks in systems" identity and ties directly to the agentic-development through-line. **[gap]** Article not yet published — publish on LinkedIn, then capture the URL.
+- **URL:** https://www.linkedin.com/pulse/have-your-agent-call-mine-why-career-needs-surface-mike-bengtson-z6gqe
+- **Why this is here:** Thought leadership that signals the "builder + leader who thinks in systems" identity and ties directly to the agentic-development through-line.
 
 ---
 
@@ -61,6 +61,6 @@ the résumé site rather than a Featured link.
 
 - **Order rationale:** identity first (résumé site) → strongest hands-on proof (gemba-core repo) → the readable version of that proof (docs site) → range (gemba-prime) → voice/POV (article).
 - **Why no NDA case study link:** AIDE, Consumer Portfolio Capability, Amobee Marketplace, and Social 2.0 are all `public_artifact: false` in `portfolio/portfolio.yaml`. LinkedIn Featured needs a public destination, so these are carried by the résumé site (item 1) instead. Do **not** create a public link that exposes employer-internal detail.
-- **If trimming to 4:** drop item 5 (article) until it's published, or drop item 3 (docs site) and keep the repo. Keep items 1, 2, and 4 in every configuration.
+- **If trimming to 4:** drop item 3 (docs site) and keep the gemba-core repo. Keep items 1, 2, 4, and 5 (the published article) in a tighter set.
 
-**Featured item count: 5** (3–5 allowed; trim to 4 by removing item 5 until published).
+**Featured item count: 5** (3–5 allowed; the article — item 5 — is published and live).

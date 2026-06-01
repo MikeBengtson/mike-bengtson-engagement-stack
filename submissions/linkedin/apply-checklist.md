@@ -68,7 +68,8 @@ Do these in sequence — later steps (Featured, posts) read better once the prof
 
 ### 10. First posts + Article — source: `activity-posts.md`
 
-- [ ] Publish the first post following the suggested 4-week sequence (lead with value: Post 2, then Post 3, then Post 4 + the Article, then Post 1 availability).
+- [x] **Article published:** https://www.linkedin.com/pulse/have-your-agent-call-mine-why-career-needs-surface-mike-bengtson-z6gqe — now Featured item 5.
+- [ ] Publish the first post following the suggested 4-week sequence (lead with value: Post 2, then Post 3, then Post 4, then Post 1 availability).
 - [ ] Put links (e.g., gemba-core) in the **first comment**, not the post body.
 - [ ] Stand up the **weekly cadence** (1–2 posts/week + 3–5 comments) from the same file.
 - [ ] When a post performs, pin it to **Featured** (loop back to step 5).
