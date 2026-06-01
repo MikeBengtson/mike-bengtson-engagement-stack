@@ -8,7 +8,7 @@ Recommendations are not canonical facts. They should not be copied into the CV w
 
 - Lead every conversation with the builder + leader combination — it is the differentiator. Most VP/Director candidates are one or the other; Mike sets standards and ships with the same agentic toolchain.
 - Make the agentic-AI transformation the headline: standing up an enterprise agentic-development practice, the ~6× cycle-time pipeline, and the RAG + MCP knowledge layer. This is the most in-demand and least-commoditized part of the profile.
-- Quantify relentlessly: $175M AIDE target, 0→7M+ users, 14→31 engineers in six months, $300M SaaS revenue org, ISO 20022 authorship. Numbers carry the seniority story.
+- Quantify relentlessly: $175M AIDE AHT-savings target, 0→7M+ users, 14→31 engineers in six months, $300M SaaS revenue org, ISO 20022 authorship. Numbers carry the seniority story.
 
 ## Proof And Public Surface
 

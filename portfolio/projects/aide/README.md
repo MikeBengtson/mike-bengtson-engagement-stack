@@ -10,7 +10,7 @@
 
 ## What This Demonstrates
 
-- Leading a multi-squad engineering organization against a nine-figure business KPI ($175M AHT savings).
+- Leading a multi-squad engineering organization against a nine-figure business KPI ($175M AHT-savings target).
 - Consolidating a sprawling servicing surface (14+ tools, dozens of back-end systems) into one associate-facing platform.
 - Scaling a delivery org rapidly under deadline (14 → 31 engineers in six months) via internal, external, associate, and contingent hiring.
 - Operationalizing agentic development to compress delivery cycles — a skill-based code-generation pipeline cutting some feature classes from ~3 months to a single two-week sprint (up to ~6×).

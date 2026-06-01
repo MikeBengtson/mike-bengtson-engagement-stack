@@ -18,7 +18,7 @@ Target roles: VP / Director of Engineering (AI / Platform), Head of AI Engineeri
 
 April 2022 to May 2026, Atlanta, GA (Remote/Hybrid)
 
-Led Fidelity Brokerage's agentic-AI transformation - the enterprise's agentic-development practice and the $175M AIDE servicing platform - after first rescuing and scaling the Consumer Portfolio Capability data platform from a stalled launch to 7M+ users.
+Led Fidelity Brokerage's agentic-AI transformation - the enterprise's agentic-development practice and AIDE, the servicing platform behind a $175M AHT-savings target - after first rescuing and scaling the Consumer Portfolio Capability data platform from a stalled launch to 7M+ users.
 - Led Brokerage's agentic-AI transformation while running engineering for AIDE, an AI single pane of glass consolidating 14+ servicing tools for 8,900 associates, targeting $175M in average-handle-time savings over five years.
 - Built a reusable, skill-based code-generation pipeline that cut delivery for some feature classes from ~3 months to a two-week sprint - up to a ~6x reduction in cycle time.
 - Architected and open-sourced gemba-core, a vendor-agnostic framework for work-tracking and session orchestration across massively parallel agentic coding flows.

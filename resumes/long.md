@@ -23,7 +23,7 @@ AI engineering leader with two decades building and scaling production platforms
 
 ### Fidelity Investments — Apr 2022 – May 2026
 
-Two mandates across four years. Most impactfully, led Fidelity Brokerage's **agentic-AI transformation** — building the enterprise's agentic-development practice (including a code-generation pipeline that cut some delivery cycles up to **~6×**) and engineering the **$175M AIDE** servicing platform. Earlier in the tenure, rescued and scaled the **Consumer Portfolio Capability** data platform from a stalled launch to **7M+ users**.
+Two mandates across four years. Most impactfully, led Fidelity Brokerage's **agentic-AI transformation** — building the enterprise's agentic-development practice (including a code-generation pipeline that cut some delivery cycles up to **~6×**) and engineering **AIDE**, the servicing platform behind a **$175M** AHT-savings target. Earlier in the tenure, rescued and scaled the **Consumer Portfolio Capability** data platform from a stalled launch to **7M+ users**.
 
 **VP, Full-Stack Engineering — Consumer Portfolio Capability · Chapter Leader** *(2022 – 2024)*
 

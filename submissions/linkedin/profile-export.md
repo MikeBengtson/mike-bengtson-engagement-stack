@@ -12,7 +12,7 @@ AI engineering leader with two decades building production platforms — now per
 
 I am equally at home leading multi-squad organizations against nine-figure KPIs and pairing with engineers in the codebase through Claude Code, Codex, MCP servers, and RAG. I have scaled platforms from zero to millions of users, doubled engineering capacity under deadline, and shipped agentic development that cut some delivery cycles from three months to a two-week sprint.
 
-At Fidelity I led Brokerage's agentic-AI transformation — standing up the enterprise's agentic-development practice and engineering the $175M AIDE servicing platform — after first rescuing a stalled data platform and scaling it from 0 to 7M+ users. Earlier, I architected industry-first AdTech and payments products at Amobee, ACI Worldwide, S1, and Mosaic Software.
+At Fidelity I led Brokerage's agentic-AI transformation — standing up the enterprise's agentic-development practice and engineering AIDE, the servicing platform behind a $175M AHT-savings target — after first rescuing a stalled data platform and scaling it from 0 to 7M+ users. Earlier, I architected industry-first AdTech and payments products at Amobee, ACI Worldwide, S1, and Mosaic Software.
 
 I am a builder and a leader at once: setting engineering standards, scaling teams, and writing code with the same toolchains I ask my org to adopt. I created and maintain gemba-core, an open-source framework for parallel agentic development.
 
@@ -28,7 +28,7 @@ Let's connect if you're operationalizing agentic development, scaling an AI-engi
 
 ### Fidelity Investments — VP, Engineering Leader (Apr 2022 – May 2026)
 
-Led Fidelity Brokerage's agentic-AI transformation — the enterprise's agentic-development practice and the $175M AIDE servicing platform — after first rescuing and scaling the Consumer Portfolio Capability data platform from a stalled launch to 7M+ users.
+Led Fidelity Brokerage's agentic-AI transformation — the enterprise's agentic-development practice and AIDE, the servicing platform behind a $175M AHT-savings target — after first rescuing and scaling the Consumer Portfolio Capability data platform from a stalled launch to 7M+ users.
 
 **VP, Engineering Leader — Brokerage AI Innovation Lead & AIDE Program · Multi-Squad Chapter Leader (2024 – 2026)**
 

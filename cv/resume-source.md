@@ -26,7 +26,7 @@ AI engineering leader with two decades building production platforms — now per
 
 ### Fidelity Investments — April 2022 to May 2026
 
-Led Fidelity Brokerage's agentic-AI transformation — the enterprise's agentic-development practice and the $175M AIDE servicing platform — after first rescuing and scaling the Consumer Portfolio Capability data platform from a stalled launch to 7M+ users.
+Led Fidelity Brokerage's agentic-AI transformation — the enterprise's agentic-development practice and AIDE, the servicing platform behind a $175M AHT-savings target — after first rescuing and scaling the Consumer Portfolio Capability data platform from a stalled launch to 7M+ users.
 
 **VP, Full-Stack Engineering — Consumer Portfolio Capability, Chapter Leader (2022 to 2024)**
 

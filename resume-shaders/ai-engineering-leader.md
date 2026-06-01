@@ -12,7 +12,7 @@ Lead with agentic-AI and developer-productivity impact, platform scale, and mult
 
 - agentic AI and developer-productivity transformation (Claude Code, Codex, MCP, RAG, SpecKit, code-graph intelligence)
 - gemba-core (open-source framework for parallel agentic development)
-- platform scale (0 to 7M+ users; $175M AIDE program)
+- platform scale (0 to 7M+ users; $175M AIDE AHT-savings target)
 - multi-squad and chapter leadership; doubling engineering capacity under deadline
 - measurable outcomes (~6x cycle-time reduction; nine-figure KPIs)
 - AWS / Kubernetes / event-driven platform modernization

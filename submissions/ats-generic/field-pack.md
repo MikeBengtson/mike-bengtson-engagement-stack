@@ -35,7 +35,7 @@ Title: VP, Engineering Leader (AI Engineering Leadership)
 Location: Atlanta, GA (Remote/Hybrid)
 Dates: April 2022 to May 2026
 
-Led Fidelity Brokerage's agentic-AI transformation - the enterprise's agentic-development practice and the 175M dollar AIDE servicing platform - after first rescuing and scaling the Consumer Portfolio Capability data platform from a stalled launch to 7M plus users.
+Led Fidelity Brokerage's agentic-AI transformation - the enterprise's agentic-development practice and AIDE, the servicing platform behind a 175M dollar AHT-savings target - after first rescuing and scaling the Consumer Portfolio Capability data platform from a stalled launch to 7M plus users.
 
 VP, Engineering Leader - Brokerage AI Innovation Lead and AIDE Program, Multi-Squad Chapter Leader (2024 to 2026):
 - Led Brokerage's agentic-AI transformation, operationalizing agentic development across the org while running engineering for AIDE, an AI single pane of glass consolidating 14 plus servicing tools for 8,900 call-center associates, targeting 175M dollars in average-handle-time savings over five years.
