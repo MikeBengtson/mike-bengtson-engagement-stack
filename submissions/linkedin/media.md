@@ -51,9 +51,7 @@ not a personal banner, so adapt rather than upload as-is:
 - `resources/branding/social/engagement-stack-linkedin-card.{svg}` / `engagement-stack-social.png` — 1200×627 social card.
 - `resources/branding/generate.py` — regenerates the family; **adapt this** to emit a 1584×396 personal banner with one of the taglines above (swap "Engagement Stack" wording for Mike's tagline, keep the palette). Documented in `resources/branding/README.md`.
 
-**[gap]** No personal LinkedIn-banner asset (1584×396, Mike-branded) exists yet. Fastest path:
-extend `generate.py` to add a `linkedin-profile-banner` size using the established navy/gold
-recipe; otherwise compose by hand in Canva/Figma using the palette above.
+**Ready asset:** [`resources/branding/social/mike-bengtson-linkedin-banner.png`](../../resources/branding/social/mike-bengtson-linkedin-banner.png) — 1584×396, navy gradient with one gold accent and the **Primary** tagline, text right-aligned in the right two-thirds (lower-left kept clear for the avatar + name). Upload it via **Edit profile → the camera/edit icon on the banner**. To swap the tagline or regenerate, edit the `KICKER` / `TAGLINE` constants in [`resources/branding/generate-linkedin-banner.py`](../../resources/branding/generate-linkedin-banner.py) and re-run it.
 
 ---
 
@@ -72,7 +70,7 @@ to generate here.
 
 ## Quick checklist
 
-- [ ] Banner 1584×396, navy `#1f3d5c` + one gold accent, text in right two-thirds, tagline chosen
+- [x] Banner 1584×396 ready → `resources/branding/social/mike-bengtson-linkedin-banner.png` (navy + one gold accent, Primary tagline) — **upload it**
 - [ ] Headshot square ≥400px, public visibility on
-- [ ] Custom URL confirmed as `linkedin.com/in/mikebengtson` (already set)
-- [ ] Banner palette matches the GitHub repo banners (one visual system)
+- [x] Custom URL confirmed as `linkedin.com/in/mikebengtson` (already set)
+- [x] Banner palette matches the GitHub repo banners (one visual system)
