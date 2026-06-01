@@ -14,8 +14,8 @@ Read:
 - relevant `portfolio/projects/*`
 - `evidence/README.md`
 - `resume-shaders/README.md`
-- `templates/resume-shaders/shader.template.md`
-- `templates/resume-shaders/shader.template.yaml`
+- `resume-shaders/ai-engineering-leader.md`
+- `resume-shaders/ai-engineering-leader.yaml`
 
 Then interview me about:
 

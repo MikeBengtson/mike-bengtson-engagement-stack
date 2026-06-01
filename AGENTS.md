@@ -61,7 +61,7 @@ Use `prompts/generate-evaluation-rubric.md` to help the user define how offers s
 
 ### Use Private Overlays
 
-Use `private.example/` as the example pattern. Real private overlays should live under ignored `private/` paths such as `private/compensation.private.yaml`, `private/constraints.private.yaml`, and `private/negotiation.private.md`. Never copy private values into public files unless the user explicitly asks.
+Sensitive data lives in a local, gitignored `private/` overlay such as `private/compensation.private.yaml`, `private/constraints.private.yaml`, and `private/negotiation.private.md`. These files are never committed. Never copy private values into public files unless the user explicitly asks.
 
 ### Generate LinkedIn Or ATS Material
 

@@ -5,14 +5,13 @@ Use this guide when adopting Engagement Stack for yourself or helping someone po
 ## Fast Path
 
 1. Fork or copy this repository.
-2. Delete `examples/` or keep it only as reference.
-3. Read [AGENTS.md](../AGENTS.md).
-4. Paste [prompts/populate-engagement-stack.md](../prompts/populate-engagement-stack.md) into your coding agent.
-5. Let the agent interview you and fill the scaffold.
-6. Copy `private.example/` to ignored `private/` if you need private salary, constraint, or negotiation overlays.
-7. Review every generated claim before sharing.
-8. Run the completeness audit in [setup/completeness-audit.md](completeness-audit.md).
-9. Render resume artifacts with GitHub Actions or `scripts/render-resumes.sh`.
+2. Read [AGENTS.md](../AGENTS.md).
+3. Paste [prompts/populate-engagement-stack.md](../prompts/populate-engagement-stack.md) into your coding agent.
+4. Let the agent interview you and fill the scaffold.
+5. Create a local `private/` directory for sensitive overlays (compensation, constraints, negotiation); it is gitignored and never committed.
+6. Review every generated claim before sharing.
+7. Run the completeness audit in [setup/completeness-audit.md](completeness-audit.md).
+8. Render resume artifacts with GitHub Actions or `scripts/render-resumes.sh`.
 
 ## Do You Already Have Polished Resume(s)?
 
@@ -36,13 +35,15 @@ The default setup requires only GitHub, Markdown, YAML, and an agent. Local scri
 
 This framework is public-first, but the user may still need private data for accurate evaluation. Public files can describe preferences and trade-off rules. Private overlays can hold actual numbers and sensitive facts.
 
-Copy:
+Create the overlay directory:
 
 ```sh
-cp -R private.example private
+mkdir -p private
+# create the real overlay files here, e.g. private/compensation.private.yaml,
+# private/constraints.private.yaml, private/negotiation.private.md
 ```
 
-Then fill `private/`. That folder is ignored by default.
+That folder is ignored by default.
 
 ## What To Fill First
 

@@ -8,7 +8,6 @@ Read these files first:
 - `AGENTS.md`
 - `setup/START_HERE.md`
 - `setup/required-files.md`
-- `private.example/README.md`
 
 Then interview me in stages. Ask no more than five questions at a time. After each stage, write or update the relevant Markdown and YAML files.
 

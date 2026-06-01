@@ -16,7 +16,6 @@ Read:
 - `engagements/evaluation-rubric.yaml`
 - `engagements/offer-packet.schema.yaml`
 - `integrations/job-search/README.md`
-- `private.example/README.md`
 
 If private overlays exist, also read:
 
@@ -112,7 +111,7 @@ Use these statuses:
 
 Keep public-safe priorities in this repo. Put sensitive compensation floors, private constraints, family details, immigration details, or negotiation thresholds in a private overlay unless I explicitly approve public storage.
 
-Use `private.example/` as the copyable pattern. Real private files should be created under ignored `private/`, not committed to the public repo.
+Sensitive data lives in a local, gitignored `private/` overlay (`private/compensation.private.yaml`, `private/constraints.private.yaml`, `private/negotiation.private.md`) that is never committed to the public repo.
 
 ## Output Rules
 

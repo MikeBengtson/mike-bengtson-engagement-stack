@@ -190,4 +190,4 @@ Before scoring, an agent should check whether the offer packet includes enough i
 
 This public rubric can say that a premium or threshold exists without revealing the number. Real salary floors, target compensation, private work authorization details, current-employer constraints, family or health constraints, and negotiation strategy should live under ignored `private/` files.
 
-Use `private.example/` as the copyable pattern. If private overlays are absent, agents should not infer hidden thresholds.
+Sensitive data lives in a local, gitignored `private/` overlay (`private/compensation.private.yaml`, `private/constraints.private.yaml`, `private/negotiation.private.md`) that is never committed. If private overlays are absent, agents should not infer hidden thresholds — ask.

@@ -79,7 +79,7 @@ private/constraints.private.yaml
 private/negotiation.private.md
 ```
 
-The committed `private.example/` folder documents this pattern without exposing real data. Agents may use private overlays when present, but must not infer hidden salary ranges, work authorization details, or constraints when they are absent.
+These overlays live in a local, gitignored `private/` directory and are never committed, so the public repo documents the pattern without exposing real data. Agents may use private overlays when present, but must not infer hidden salary ranges, work authorization details, or constraints when they are absent.
 
 ## Runtime Posture
 
