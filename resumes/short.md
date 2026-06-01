@@ -16,7 +16,7 @@ AI engineering leader with two decades building production platforms — now per
 - **AI & Agentic Engineering —** Claude Code · Codex · GitHub Copilot · MCP servers · RAG & vector search · agentic orchestration · spec-driven development · code-graph intelligence (GitNexus) · evals & guardrails · prompt/context engineering
 - **Engineering Leadership —** multi-squad & chapter leadership · hiring and scaling teams · SDLC & release governance · cross-org roadmap alignment · revenue & P&L ownership
 - **Cloud & Platform —** AWS (Lambda, Aurora/RDS, DynamoDB, SQS, S3, KMS, Route 53) · microservices · Kubernetes, Rancher, ArgoCD · event-driven architecture · CI/CD
-- **Languages & Frameworks —** Java (Spring Boot, Micronaut) · TypeScript / Node.js · Python · React · GraphQL & REST · SQL & NoSQL
+- **Languages & Frameworks —** Java (Spring Boot, Micronaut) · Go · TypeScript / Node.js · Python · React · GraphQL & REST · SQL & NoSQL
 - **AI Deployment Stack —** Vercel · Railway · Supabase · Pinecone · Resend · AssemblyAI · Lovable
 
 ## Experience
@@ -38,7 +38,7 @@ Hired to finish and stabilize a stalled enterprise data-aggregation platform —
 Promoted to lead Brokerage's agentic-AI transformation: operationalizing agentic development across the org — the **AI Innovation** workstream — while running engineering for **AIDE**, an AI "single pane of glass" consolidating 14+ servicing tools for 8,900 call-center associates, targeting **$175M** in average-handle-time savings over five years.
 
 - Built a reusable, **skill-based code-generation pipeline** that cut delivery for some feature classes from ~3 months to a single two-week sprint — **up to a ~6× reduction in cycle time**.
-- Architected and open-sourced **gemba-core**, a vendor-agnostic framework for work-tracking and session orchestration across massively parallel agentic coding flows ([github.com/GembaCore/gemba-core](https://github.com/GembaCore/gemba-core)).
+- Architected and open-sourced **gemba-core**, a vendor-agnostic framework for work-tracking and session orchestration across massively parallel agentic coding flows; a single Go binary with an embedded React SPA ([github.com/GembaCore/gemba-core](https://github.com/GembaCore/gemba-core)).
 - Stood up an enterprise **RAG + MCP knowledge layer** that vectorized thousands of Confluence pages and Swagger/API contracts, making institutional knowledge directly consumable by agentic pipelines.
 - Set the brokerage's **agentic-development standard** — Claude Code, Codex, SpecKit, GitNexus code graphs, local MCP servers — plus the SDLC governance and AI-first practices (test generation, SDK migrations, SonarQube remediation, Beads data plane) that scaled it across squads.
 - Drove the **AIDE** delivery org **from 14 to 31 engineers in six months** and shipped its highest-impact servicing features — trading, Wire/ACH transfer, multi-holding liquidation, and call-notes optimization — directly advancing the program's AHT-savings target.
