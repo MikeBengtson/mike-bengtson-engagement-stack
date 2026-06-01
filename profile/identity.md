@@ -26,5 +26,5 @@ Preferred contact method: email — mike.bengtson@gmail.com
 - Phone: 954-675-2641
 - LinkedIn: https://www.linkedin.com/in/mikebengtson
 - GitHub: https://github.com/MikeBengtson
-- Website: https://mikebengtson.github.io/mike-bengtson-engagement-stack/ (pending Pages publish)
+- Website: https://mikebengtson.github.io/
 - Portfolio: gemba-core — https://github.com/GembaCore/gemba-core
