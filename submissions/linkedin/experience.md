@@ -18,7 +18,7 @@ Per-role Experience sections for Mike Bengtson, reverse-chronological. Each Desc
 
 **Description:**
 
-Led Brokerage's agentic-AI transformation: operationalizing agentic development across the org — the AI Innovation workstream — while running engineering for AIDE, an AI "single pane of glass" consolidating 14+ servicing tools for 8,900 call-center associates, targeting a $175M average-handle-time savings target over five years.
+Led Brokerage's agentic-AI transformation: operationalizing agentic development across the org — the AI Innovation workstream — while running engineering for AIDE, an AI "single pane of glass" consolidating 14+ servicing tools for 8,900 call-center associates, targeting $175M in average-handle-time savings over five years.
 
 - Built a reusable, skill-based code-generation pipeline that cut delivery for some feature classes from ~3 months to a single two-week sprint — up to a ~6x reduction in cycle time.
 - Architected and open-sourced gemba-core, a vendor-agnostic framework for work-tracking and session orchestration across massively parallel agentic coding flows — a single Go binary with an embedded React/Vite SPA, OSS under the GembaCore org.
